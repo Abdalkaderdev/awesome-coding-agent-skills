@@ -1,0 +1,15 @@
+{
+  "name": "awesome-coding-agent-skills",
+  "private": true,
+  "type": "module",
+  "description": "Curated skills, plugins and tooling for Claude Code, Codex, Gemini CLI and Cursor.",
+  "license": "MIT",
+  "author": "Abdalkaderdev (https://abdalkader.dev)",
+  "repository": "github:Abdalkaderdev/awesome-coding-agent-skills",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/build.mjs --check",
+    "refresh": "node scripts/build.mjs"
+  }
+}
