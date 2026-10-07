@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Coding Agent Skills</title>
+<meta name="description" content="Skills, plugins and tooling for Claude Code, Codex, Gemini CLI and Cursor, with GitHub stars and last-updated dates refreshed weekly.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%232f5fb3'/></svg>">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Awesome Coding Agent Skills</h1>
+  <p>Skills, plugins and tooling for Claude Code, Codex, Gemini CLI and Cursor. Stars and dates refreshed weekly. <a href="https://github.com/Abdalkaderdev/awesome-coding-agent-skills">Source and contributing</a>.</p>
+</header>
+<main>
+  <form id="filters" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Search name or description" aria-label="Search" autocomplete="off">
+    <fieldset id="agents"><legend class="sr-only">Agents</legend></fieldset>
+    <div class="row">
+      <select id="category" aria-label="Category"><option value="">All categories</option></select>
+      <select id="sort" aria-label="Sort">
+        <option value="stars">Most stars</option>
+        <option value="updated">Recently updated</option>
+        <option value="name">Name</option>
+      </select>
+      <label class="check"><input id="hide" type="checkbox"> Hide archived and stale</label>
+    </div>
+  </form>
+  <p id="count" aria-live="polite"></p>
+  <ul id="list"></ul>
+</main>
+<footer>
+  <p id="generated"></p>
+  <p>List content CC0 1.0, code MIT. By <a href="https://abdalkader.dev">Abdalkader</a> · <a href="https://github.com/Abdalkaderdev">@Abdalkaderdev</a></p>
+</footer>
+</body>
+</html>
