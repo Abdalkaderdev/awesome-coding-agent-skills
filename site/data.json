@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:55:02.247Z",
+  "generatedAt": "2026-10-07T23:57:07.325Z",
   "agents": {
     "claude-code": "Claude Code",
     "codex": "Codex",
@@ -104,7 +104,7 @@
       ],
       "description": "Engineering skills: specs, testing, code review, performance.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 102789,
+      "stars": 102791,
       "pushedAt": "2026-10-03T18:21:11Z",
       "archived": false,
       "stale": false
@@ -210,7 +210,7 @@
       ],
       "description": "Rewrites text to remove common signs of AI-generated writing.",
       "url": "https://github.com/blader/humanizer",
-      "stars": 54650,
+      "stars": 54651,
       "pushedAt": "2026-09-28T05:55:12Z",
       "archived": false,
       "stale": false
@@ -242,7 +242,7 @@
       ],
       "description": "Large collection of skills, agents and commands across domains.",
       "url": "https://github.com/alirezarezvani/claude-skills",
-      "stars": 27820,
+      "stars": 27821,
       "pushedAt": "2026-08-30T09:46:16Z",
       "archived": false,
       "stale": false
