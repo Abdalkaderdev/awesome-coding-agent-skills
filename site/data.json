@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:57:07.325Z",
+  "generatedAt": "2026-10-08T00:23:56.875Z",
   "agents": {
     "claude-code": "Claude Code",
     "codex": "Codex",
@@ -19,8 +19,8 @@
     },
     {
       "id": "plugins",
-      "title": "Plugin marketplaces",
-      "description": "Installable plugin catalogs."
+      "title": "Plugins and marketplaces",
+      "description": "Installable plugins and plugin catalogs."
     },
     {
       "id": "extensions",
@@ -43,6 +43,11 @@
       "description": "Model Context Protocol servers widely used with coding agents."
     },
     {
+      "id": "context",
+      "title": "Memory and context",
+      "description": "Persistent memory, code indexing and token reduction."
+    },
+    {
       "id": "statusline",
       "title": "Statusline and usage",
       "description": "Statuslines, usage trackers and cost monitors."
@@ -53,9 +58,19 @@
       "description": "Hook collections, SDKs and observability built on hooks."
     },
     {
+      "id": "orchestration",
+      "title": "Sessions and orchestration",
+      "description": "Parallel agent runners, worktree managers and session clients."
+    },
+    {
       "id": "tooling",
       "title": "Skill managers and tooling",
-      "description": "Install, sync, convert and route."
+      "description": "Install, sync, convert, route, configure and run in CI."
+    },
+    {
+      "id": "learning",
+      "title": "Guides and examples",
+      "description": "Tutorials, guides and example setups."
     },
     {
       "id": "lists",
@@ -75,7 +90,7 @@
       ],
       "description": "Anthropic's reference skills, including docx, pptx, xlsx and pdf.",
       "url": "https://github.com/anthropics/skills",
-      "stars": 180056,
+      "stars": 180057,
       "pushedAt": "2026-10-05T13:46:45Z",
       "archived": false,
       "stale": false
@@ -104,7 +119,7 @@
       ],
       "description": "Engineering skills: specs, testing, code review, performance.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 102791,
+      "stars": 102803,
       "pushedAt": "2026-10-03T18:21:11Z",
       "archived": false,
       "stale": false
@@ -136,7 +151,7 @@
       ],
       "description": "Skills for scientific research, databases and analysis packages.",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "stars": 47909,
+      "stars": 47910,
       "pushedAt": "2026-10-05T09:39:11Z",
       "archived": false,
       "stale": false
@@ -150,7 +165,7 @@
       ],
       "description": "Trail of Bits skills for security research and auditing.",
       "url": "https://github.com/trailofbits/skills",
-      "stars": 7416,
+      "stars": 7417,
       "pushedAt": "2026-10-07T16:35:30Z",
       "archived": false,
       "stale": false
@@ -179,7 +194,7 @@
       ],
       "description": "HashiCorp skills and plugins for Terraform and other products.",
       "url": "https://github.com/hashicorp/agent-skills",
-      "stars": 886,
+      "stars": 887,
       "pushedAt": "2026-10-05T01:21:52Z",
       "archived": false,
       "stale": false
@@ -195,7 +210,7 @@
       ],
       "description": "Multi-phase security audit skill with verified findings.",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "stars": 26031,
+      "stars": 26043,
       "pushedAt": "2026-09-14T19:29:02Z",
       "archived": false,
       "stale": false
@@ -210,7 +225,7 @@
       ],
       "description": "Rewrites text to remove common signs of AI-generated writing.",
       "url": "https://github.com/blader/humanizer",
-      "stars": 54651,
+      "stars": 54655,
       "pushedAt": "2026-09-28T05:55:12Z",
       "archived": false,
       "stale": false
@@ -336,6 +351,592 @@
       "stale": false
     },
     {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "UI/UX design skill with searchable styles, palettes, font pairings and stack guidelines.",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 133836,
+      "pushedAt": "2026-10-03T16:05:26Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that cuts output tokens by having the agent answer in terse caveman speech.",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "stars": 110411,
+      "pushedAt": "2026-10-07T16:32:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Frontend design skills that steer agents away from generic UI output.",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 93509,
+      "pushedAt": "2026-10-07T06:20:58Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Marketing skills for CRO, copywriting, SEO, analytics and growth.",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "stars": 53599,
+      "pushedAt": "2026-10-08T00:15:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Academic research pipeline skills: research, write, review, revise.",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "stars": 50780,
+      "pushedAt": "2026-10-03T14:29:44Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Cybersecurity skills mapped to MITRE ATT&CK, NIST CSF and other frameworks.",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 33916,
+      "pushedAt": "2026-08-31T04:32:44Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skills for AI research and ML engineering: training, evaluation, inference.",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "stars": 13334,
+      "pushedAt": "2026-06-16T01:36:46Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Jeffallan/claude-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Full-stack development skills by language, framework and role.",
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "stars": 11766,
+      "pushedAt": "2026-10-03T15:49:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "dotnet/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "The .NET team's skills for C# and .NET development.",
+      "url": "https://github.com/dotnet/skills",
+      "stars": 5573,
+      "pushedAt": "2026-10-08T00:10:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "google-gemini/gemini-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Google's skills for the Gemini API, SDKs and agent interactions.",
+      "url": "https://github.com/google-gemini/gemini-skills",
+      "stars": 4256,
+      "pushedAt": "2026-10-06T16:53:59Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Google's skills for designing UI with the Stitch MCP server.",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "stars": 8439,
+      "pushedAt": "2026-08-17T20:20:23Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "deanpeters/Product-Manager-Skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Product management skills built on established PM frameworks.",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills",
+      "stars": 7193,
+      "pushedAt": "2026-09-01T22:34:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "zarazhangrui/frontend-slides",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that builds HTML slide decks using the agent's frontend abilities.",
+      "url": "https://github.com/zarazhangrui/frontend-slides",
+      "stars": 30264,
+      "pushedAt": "2026-06-23T20:08:19Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Design skill aimed at avoiding generic AI-looking interfaces.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "stars": 29735,
+      "pushedAt": "2026-08-06T16:19:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Editorial diagram skill with 42 diagram types, output as HTML and SVG.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "stars": 44952,
+      "pushedAt": "2026-10-08T00:11:47Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "SEO skill with sub-skills and subagents for technical SEO, schema and GEO.",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "stars": 18486,
+      "pushedAt": "2026-10-04T23:41:12Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill for reverse engineering Android apps.",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "stars": 7998,
+      "pushedAt": "2026-09-30T08:17:37Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/defending-code-reference-harness",
+      "category": "skills",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's skills for threat modeling, scanning, triage and patching.",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "stars": 7551,
+      "pushedAt": "2026-08-06T21:42:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "JimLiu/baoyu-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Collection of 20+ productivity and content skills by Baoyu.",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "stars": 26398,
+      "pushedAt": "2026-09-10T15:13:43Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Agents365-ai/drawio-skill",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that turns text, code and schemas into editable draw.io diagrams.",
+      "url": "https://github.com/Agents365-ai/drawio-skill",
+      "stars": 9984,
+      "pushedAt": "2026-10-02T11:13:54Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Markdown skills for autonomous ML research with cross-model review loops.",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "stars": 17099,
+      "pushedAt": "2026-10-07T07:46:15Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that pushes the agent toward minimal code and reuse over new abstractions.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 157584,
+      "pushedAt": "2026-10-05T20:46:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that makes the agent lead with the answer and keep output scannable.",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "stars": 55102,
+      "pushedAt": "2026-10-06T23:23:46Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that turns ideas, plans or codebases into interactive diagrams.",
+      "url": "https://github.com/tt-a1i/archify",
+      "stars": 79227,
+      "pushedAt": "2026-10-08T00:17:47Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skill that builds a queryable knowledge graph from code, docs and schemas.",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "stars": 124682,
+      "pushedAt": "2026-10-07T17:04:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Skills for web design, knowledge retrieval and image generation.",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "stars": 12766,
+      "pushedAt": "2026-07-12T14:36:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "revfactory/harness",
+      "category": "skills",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Meta-skill that designs domain-specific agent teams and generates their skills.",
+      "url": "https://github.com/revfactory/harness",
+      "stars": 9134,
+      "pushedAt": "2026-09-28T05:19:20Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "agentskills/agentskills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "The Agent Skills (SKILL.md) specification and documentation.",
+      "url": "https://github.com/agentskills/agentskills",
+      "stars": 25954,
+      "pushedAt": "2026-08-09T20:36:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Large installable skill catalog with tooling for discovery and selection.",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "stars": 47332,
+      "pushedAt": "2026-10-07T17:51:50Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "getsentry/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Sentry team's skills for development work.",
+      "url": "https://github.com/getsentry/skills",
+      "stars": 1038,
+      "pushedAt": "2026-10-02T19:29:06Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "cloudflare/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Cloudflare's skills for Workers, the Agents SDK and the developer platform.",
+      "url": "https://github.com/cloudflare/skills",
+      "stars": 3003,
+      "pushedAt": "2026-10-01T14:24:15Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "supabase/agent-skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Supabase's skills for building with Supabase.",
+      "url": "https://github.com/supabase/agent-skills",
+      "stars": 2708,
+      "pushedAt": "2026-10-02T12:34:51Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "expo/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Expo's skills for Expo projects and EAS.",
+      "url": "https://github.com/expo/skills",
+      "stars": 2675,
+      "pushedAt": "2026-10-07T12:47:44Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "huggingface/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Hugging Face's skills for models, datasets, training and Hub workflows.",
+      "url": "https://github.com/huggingface/skills",
+      "stars": 11146,
+      "pushedAt": "2026-10-01T12:33:22Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mattpocock/skills",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Matt Pocock's small, composable engineering skills.",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 279572,
+      "pushedAt": "2026-10-07T18:55:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Vercel's browser automation CLI for agents, shipped with a skill.",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "stars": 43622,
+      "pushedAt": "2026-10-07T19:08:21Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "category": "skills",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Google Workspace CLI with 40+ agent skills for Drive, Gmail, Calendar and more.",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 31271,
+      "pushedAt": "2026-10-06T20:23:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
       "repo": "obra/superpowers",
       "category": "workflows",
       "agents": [
@@ -346,7 +947,7 @@
       ],
       "description": "Skills-based development method: brainstorm, plan, TDD, review.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 296385,
+      "stars": 296390,
       "pushedAt": "2026-10-06T23:57:53Z",
       "archived": false,
       "stale": false
@@ -362,7 +963,7 @@
       ],
       "description": "GitHub's toolkit for spec-driven development.",
       "url": "https://github.com/github/spec-kit",
-      "stars": 140543,
+      "stars": 140545,
       "pushedAt": "2026-10-07T22:48:11Z",
       "archived": false,
       "stale": false
@@ -452,6 +1053,183 @@
       "stale": false
     },
     {
+      "repo": "affaan-m/ECC",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Skills, agents, hooks and rules for agent performance, memory and security.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 274934,
+      "pushedAt": "2026-10-05T04:55:16Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "garrytan/gstack",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Garry Tan's setup: role-based skills for planning, review, QA and shipping.",
+      "url": "https://github.com/garrytan/gstack",
+      "stars": 135700,
+      "pushedAt": "2026-10-07T23:34:06Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Plan, work, review and compound workflow where each task informs the next.",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "stars": 25423,
+      "pushedAt": "2026-10-07T23:41:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mindfold-ai/Trellis",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Persists specs, tasks and memory in the repo so agents follow team conventions.",
+      "url": "https://github.com/mindfold-ai/Trellis",
+      "stars": 14880,
+      "pushedAt": "2026-09-29T12:35:32Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "frankbria/ralph-claude-code",
+      "category": "workflows",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Autonomous development loop for Claude Code with exit detection.",
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "stars": 9667,
+      "pushedAt": "2026-10-07T03:57:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "MrLesk/Backlog.md",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Markdown task board in the repo for humans and agents, with CLI and MCP.",
+      "url": "https://github.com/MrLesk/Backlog.md",
+      "stars": 6955,
+      "pushedAt": "2026-10-07T14:40:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "Visual annotation and review of agent plans and diffs, with feedback sent back.",
+      "url": "https://github.com/backnotprop/plannotator",
+      "stars": 9199,
+      "pushedAt": "2026-10-08T00:11:25Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "category": "workflows",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Game development studio setup with 49 agents and 72 workflow skills.",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "stars": 25865,
+      "pushedAt": "2026-09-29T12:55:08Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Fission-AI/OpenSpec",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Spec-driven development with change proposals, specs and tasks.",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "stars": 71270,
+      "pushedAt": "2026-10-07T12:59:14Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gotalab/cc-sdd",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Spec-driven development harness: requirements, design, tasks, implementation.",
+      "url": "https://github.com/gotalab/cc-sdd",
+      "stars": 3709,
+      "pushedAt": "2026-09-23T07:26:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "open-gsd/gsd-core",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Meta-prompting, context engineering and spec-driven development system.",
+      "url": "https://github.com/open-gsd/gsd-core",
+      "stars": 10283,
+      "pushedAt": "2026-10-07T08:10:16Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Q00/ouroboros",
+      "category": "workflows",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Interview-gated, staged evaluation loop for replayable AI coding workflows.",
+      "url": "https://github.com/Q00/ouroboros",
+      "stars": 6193,
+      "pushedAt": "2026-10-07T12:38:22Z",
+      "archived": false,
+      "stale": false
+    },
+    {
       "repo": "anthropics/claude-plugins-official",
       "category": "plugins",
       "agents": [
@@ -459,7 +1237,7 @@
       ],
       "description": "Anthropic-managed directory of Claude Code plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 37505,
+      "stars": 37506,
       "pushedAt": "2026-10-07T20:36:56Z",
       "archived": false,
       "stale": false
@@ -474,7 +1252,7 @@
       ],
       "description": "Plugin marketplace of agents, skills and commands for several harnesses.",
       "url": "https://github.com/wshobson/agents",
-      "stars": 40280,
+      "stars": 40282,
       "pushedAt": "2026-10-05T01:07:11Z",
       "archived": false,
       "stale": false
@@ -514,7 +1292,7 @@
       ],
       "description": "Cursor plugin specification and official plugins.",
       "url": "https://github.com/cursor/plugins",
-      "stars": 10252,
+      "stars": 10253,
       "pushedAt": "2026-10-07T04:54:21Z",
       "archived": false,
       "stale": false
@@ -542,6 +1320,202 @@
       "url": "https://github.com/Piebald-AI/claude-code-lsps",
       "stars": 521,
       "pushedAt": "2026-07-25T22:46:43Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's role-based plugins for knowledge work, for Cowork and Claude Code.",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "stars": 27134,
+      "pushedAt": "2026-10-07T16:48:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-plugins-community",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Read-only mirror of the community plugin marketplace for Claude Code.",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "stars": 4557,
+      "pushedAt": "2026-10-05T19:48:54Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/financial-services",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's agents, skills and connectors for financial-services workflows.",
+      "url": "https://github.com/anthropics/financial-services",
+      "stars": 38945,
+      "pushedAt": "2026-09-21T21:10:41Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-for-legal",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's plugins for legal workflows.",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "stars": 9617,
+      "pushedAt": "2026-09-29T21:32:40Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/life-sciences",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's plugin marketplace for Claude for Life Sciences.",
+      "url": "https://github.com/anthropics/life-sciences",
+      "stars": 612,
+      "pushedAt": "2026-08-14T19:59:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/healthcare",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's healthcare plugin with skills and hosted MCP servers.",
+      "url": "https://github.com/anthropics/healthcare",
+      "stars": 422,
+      "pushedAt": "2026-08-27T13:13:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "openai/plugins",
+      "category": "plugins",
+      "agents": [
+        "codex"
+      ],
+      "description": "OpenAI's curated Codex plugin examples and default marketplace.",
+      "url": "https://github.com/openai/plugins",
+      "stars": 7340,
+      "pushedAt": "2026-09-28T17:08:10Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "OpenAI's Claude Code plugin to review code or delegate tasks to Codex.",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "stars": 33938,
+      "pushedAt": "2026-07-08T00:17:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "numman-ali/n-skills",
+      "category": "plugins",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Curated plugin marketplace for Claude Code, Codex and openskills.",
+      "url": "https://github.com/numman-ali/n-skills",
+      "stars": 1051,
+      "pushedAt": "2026-09-12T00:25:34Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "team-attention/plugins-for-claude-natives",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Claude Code plugins for power users.",
+      "url": "https://github.com/team-attention/plugins-for-claude-natives",
+      "stars": 825,
+      "pushedAt": "2026-04-20T06:53:40Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "jeremylongshore/tons-of-skills-marketplace",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Large skills and plugin marketplace with the ccpi package manager.",
+      "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
+      "stars": 2820,
+      "pushedAt": "2026-10-08T00:22:33Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "hamelsmu/claude-review-loop",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Claude Code plugin that runs an automated review loop with Codex.",
+      "url": "https://github.com/hamelsmu/claude-review-loop",
+      "stars": 724,
+      "pushedAt": "2026-03-15T04:13:23Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "agenticnotetaking/arscontexta",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Plugin that generates a personal knowledge system from conversation.",
+      "url": "https://github.com/agenticnotetaking/arscontexta",
+      "stars": 3492,
+      "pushedAt": "2026-02-24T23:54:21Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ZeframLou/call-me",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Plugin that lets Claude Code call you on the phone.",
+      "url": "https://github.com/ZeframLou/call-me",
+      "stars": 2644,
+      "pushedAt": "2026-04-07T01:30:52Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "davepoon/buildwithclaude",
+      "category": "plugins",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Marketplace and directory of Claude Code skills, agents, commands and hooks.",
+      "url": "https://github.com/davepoon/buildwithclaude",
+      "stars": 3604,
+      "pushedAt": "2026-10-06T12:39:52Z",
       "archived": false,
       "stale": false
     },
@@ -625,6 +1599,355 @@
       "stale": false
     },
     {
+      "repo": "gemini-cli-extensions/stitch",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for designing UI with the Stitch MCP server.",
+      "url": "https://github.com/gemini-cli-extensions/stitch",
+      "stars": 477,
+      "pushedAt": "2026-01-26T17:53:53Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/flutter",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension to create, build, test and run Flutter apps.",
+      "url": "https://github.com/gemini-cli-extensions/flutter",
+      "stars": 401,
+      "pushedAt": "2026-03-02T16:13:33Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/ralph",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for Ralph loops.",
+      "url": "https://github.com/gemini-cli-extensions/ralph",
+      "stars": 332,
+      "pushedAt": "2026-02-02T20:13:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/genkit",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for building with Genkit.",
+      "url": "https://github.com/gemini-cli-extensions/genkit",
+      "stars": 176,
+      "pushedAt": "2026-02-20T16:13:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/mcp-toolbox",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for MCP Toolbox for Databases.",
+      "url": "https://github.com/gemini-cli-extensions/mcp-toolbox",
+      "stars": 108,
+      "pushedAt": "2026-10-07T12:28:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/postgres",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's extension for PostgreSQL databases.",
+      "url": "https://github.com/gemini-cli-extensions/postgres",
+      "stars": 96,
+      "pushedAt": "2026-08-31T09:59:13Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/sre",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's SRE investigation tools for Google Cloud.",
+      "url": "https://github.com/gemini-cli-extensions/sre",
+      "stars": 84,
+      "pushedAt": "2026-09-02T13:48:19Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/looker",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Looker.",
+      "url": "https://github.com/gemini-cli-extensions/looker",
+      "stars": 57,
+      "pushedAt": "2026-09-23T16:25:50Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/cicd",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for CI/CD on Google Cloud.",
+      "url": "https://github.com/gemini-cli-extensions/cicd",
+      "stars": 51,
+      "pushedAt": "2026-10-07T02:34:42Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/bigquery-data-analytics",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's data analytics skills for BigQuery.",
+      "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+      "stars": 50,
+      "pushedAt": "2026-09-28T02:37:16Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/mysql",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's extension for MySQL databases.",
+      "url": "https://github.com/gemini-cli-extensions/mysql",
+      "stars": 42,
+      "pushedAt": "2026-08-27T16:35:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/cloud-sql-postgresql",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Cloud SQL for PostgreSQL.",
+      "url": "https://github.com/gemini-cli-extensions/cloud-sql-postgresql",
+      "stars": 42,
+      "pushedAt": "2026-09-23T16:25:11Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/datacommons",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for querying Data Commons public datasets.",
+      "url": "https://github.com/gemini-cli-extensions/datacommons",
+      "stars": 36,
+      "pushedAt": "2026-02-04T19:56:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/knowledge-catalog",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Knowledge Catalog.",
+      "url": "https://github.com/gemini-cli-extensions/knowledge-catalog",
+      "stars": 34,
+      "pushedAt": "2026-09-22T11:40:06Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/google-cloud-storage",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Cloud Storage buckets, objects and transfers.",
+      "url": "https://github.com/gemini-cli-extensions/google-cloud-storage",
+      "stars": 30,
+      "pushedAt": "2026-10-03T01:48:01Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/firestore-native",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Firestore.",
+      "url": "https://github.com/gemini-cli-extensions/firestore-native",
+      "stars": 30,
+      "pushedAt": "2026-09-23T16:25:52Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/bigquery-conversational-analytics",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for conversational analytics on BigQuery.",
+      "url": "https://github.com/gemini-cli-extensions/bigquery-conversational-analytics",
+      "stars": 28,
+      "pushedAt": "2026-10-05T08:28:07Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/sql-server",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's extension for SQL Server databases.",
+      "url": "https://github.com/gemini-cli-extensions/sql-server",
+      "stars": 24,
+      "pushedAt": "2026-08-27T16:35:33Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/alloydb",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for AlloyDB.",
+      "url": "https://github.com/gemini-cli-extensions/alloydb",
+      "stars": 24,
+      "pushedAt": "2026-09-23T16:24:36Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/vertex",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's extension for managing prompts in Vertex AI.",
+      "url": "https://github.com/gemini-cli-extensions/vertex",
+      "stars": 22,
+      "pushedAt": "2026-06-23T19:22:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/spanner",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli",
+        "claude-code",
+        "codex"
+      ],
+      "description": "Google's skills for Spanner.",
+      "url": "https://github.com/gemini-cli-extensions/spanner",
+      "stars": 19,
+      "pushedAt": "2026-09-30T23:10:15Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/angular",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Angular extension for Gemini CLI.",
+      "url": "https://github.com/gemini-cli-extensions/angular",
+      "stars": 16,
+      "pushedAt": "2025-12-09T16:58:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "elastic/gemini-cli-elasticsearch",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Elastic's Elasticsearch extension for Gemini CLI.",
+      "url": "https://github.com/elastic/gemini-cli-elasticsearch",
+      "stars": 118,
+      "pushedAt": "2026-04-08T06:32:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "AsyncFuncAI/ralph-wiggum-extension",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Ralph Wiggum loop extension for Gemini CLI.",
+      "url": "https://github.com/AsyncFuncAI/ralph-wiggum-extension",
+      "stars": 134,
+      "pushedAt": "2026-01-06T05:34:57Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "thoreinstein/gemini-obsidian",
+      "category": "extensions",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Obsidian vault access with local RAG for Gemini CLI.",
+      "url": "https://github.com/thoreinstein/gemini-obsidian",
+      "stars": 102,
+      "pushedAt": "2026-07-31T22:52:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
       "repo": "VoltAgent/awesome-claude-code-subagents",
       "category": "subagents",
       "agents": [
@@ -645,8 +1968,79 @@
       ],
       "description": "130+ subagent definitions for Codex.",
       "url": "https://github.com/VoltAgent/awesome-codex-subagents",
-      "stars": 6287,
+      "stars": 6288,
       "pushedAt": "2026-10-05T07:40:02Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "category": "subagents",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Agent personas across engineering, design, marketing and other departments.",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "stars": 158261,
+      "pushedAt": "2026-10-07T16:45:46Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "jnMetaCode/agency-agents-zh",
+      "category": "subagents",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Chinese edition of agency-agents with 277 roles, including China-market agents.",
+      "url": "https://github.com/jnMetaCode/agency-agents-zh",
+      "stars": 21104,
+      "pushedAt": "2026-10-05T13:05:32Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "category": "subagents",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Orchestrated subagent dev team for Claude Code.",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents",
+      "stars": 4389,
+      "pushedAt": "2025-10-30T00:06:52Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "0xfurai/claude-code-subagents",
+      "category": "subagents",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "100+ development subagents for Claude Code.",
+      "url": "https://github.com/0xfurai/claude-code-subagents",
+      "stars": 1011,
+      "pushedAt": "2025-10-15T19:50:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "rahulvrane/awesome-claude-agents",
+      "category": "subagents",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Collection of Claude Code subagents.",
+      "url": "https://github.com/rahulvrane/awesome-claude-agents",
+      "stars": 371,
+      "pushedAt": "2026-03-06T12:37:18Z",
       "archived": false,
       "stale": false
     },
@@ -706,6 +2100,105 @@
       "stale": false
     },
     {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "category": "rules",
+      "agents": [
+        "claude-code",
+        "cursor"
+      ],
+      "description": "Single CLAUDE.md derived from Karpathy's notes on LLM coding pitfalls.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": 217438,
+      "pushedAt": "2026-04-20T10:05:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "drona23/claude-token-efficient",
+      "category": "rules",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "CLAUDE.md that keeps responses terse to cut output tokens.",
+      "url": "https://github.com/drona23/claude-token-efficient",
+      "stars": 6076,
+      "pushedAt": "2026-06-16T03:10:06Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "twostraws/SwiftAgents",
+      "category": "rules",
+      "agents": [
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "AGENTS.md file for Swift and SwiftUI projects.",
+      "url": "https://github.com/twostraws/SwiftAgents",
+      "stars": 1451,
+      "pushedAt": "2026-03-05T16:13:56Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "agent0ai/dox",
+      "category": "rules",
+      "agents": [
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Self-documenting AGENTS.md files maintained by the agent.",
+      "url": "https://github.com/agent0ai/dox",
+      "stars": 1479,
+      "pushedAt": "2026-09-01T19:05:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "instructa/ai-prompts",
+      "category": "rules",
+      "agents": [
+        "cursor"
+      ],
+      "description": "Curated prompts and Cursor rules.",
+      "url": "https://github.com/instructa/ai-prompts",
+      "stars": 1104,
+      "pushedAt": "2026-05-13T11:42:58Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "LakshmanTurlapati/Review-Gate",
+      "category": "rules",
+      "agents": [
+        "cursor"
+      ],
+      "description": "Cursor rule and MCP tool that asks for review before a request ends.",
+      "url": "https://github.com/LakshmanTurlapati/Review-Gate",
+      "stars": 1527,
+      "pushedAt": "2026-04-02T23:42:15Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "yzhao062/agent-style",
+      "category": "rules",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "21 writing rules for coding and writing agents.",
+      "url": "https://github.com/yzhao062/agent-style",
+      "stars": 706,
+      "pushedAt": "2026-10-07T02:56:42Z",
+      "archived": false,
+      "stale": false
+    },
+    {
       "repo": "upstash/context7",
       "category": "mcp",
       "agents": [
@@ -716,7 +2209,7 @@
       ],
       "description": "Current library documentation and code examples.",
       "url": "https://github.com/upstash/context7",
-      "stars": 62780,
+      "stars": 62781,
       "pushedAt": "2026-10-07T13:59:55Z",
       "archived": false,
       "stale": false
@@ -732,7 +2225,7 @@
       ],
       "description": "Browser automation through Playwright.",
       "url": "https://github.com/microsoft/playwright-mcp",
-      "stars": 37904,
+      "stars": 37907,
       "pushedAt": "2026-10-07T18:17:42Z",
       "archived": false,
       "stale": false
@@ -764,7 +2257,7 @@
       ],
       "description": "GitHub's official MCP server.",
       "url": "https://github.com/github/github-mcp-server",
-      "stars": 33436,
+      "stars": 33437,
       "pushedAt": "2026-10-07T15:26:49Z",
       "archived": false,
       "stale": false
@@ -780,7 +2273,7 @@
       ],
       "description": "Symbol-level code retrieval and editing via language servers.",
       "url": "https://github.com/oraios/serena",
-      "stars": 30087,
+      "stars": 30088,
       "pushedAt": "2026-10-06T22:55:22Z",
       "archived": false,
       "stale": false
@@ -812,8 +2305,739 @@
       ],
       "description": "Reference MCP server implementations.",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 91068,
+      "stars": 91069,
       "pushedAt": "2026-10-07T21:22:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "getsentry/toolkit",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Sentry's MCP server and CLI.",
+      "url": "https://github.com/getsentry/toolkit",
+      "stars": 917,
+      "pushedAt": "2026-10-07T22:03:14Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "cloudflare/mcp-server-cloudflare",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Cloudflare's MCP servers for Workers, observability and other services.",
+      "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "stars": 4360,
+      "pushedAt": "2026-10-06T22:06:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "figma/mcp-server-guide",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Figma's guide and rules for the Figma MCP server.",
+      "url": "https://github.com/figma/mcp-server-guide",
+      "stars": 2053,
+      "pushedAt": "2026-10-05T09:46:01Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "GLips/Figma-Context-MCP",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Figma layout data for coding agents.",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "stars": 15964,
+      "pushedAt": "2026-10-03T03:46:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "grab/cursor-talk-to-figma-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Read and modify Figma designs from an agent via a plugin and MCP.",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+      "stars": 7048,
+      "pushedAt": "2026-07-26T07:14:26Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "supabase/mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Supabase's MCP server for projects, databases and edge functions.",
+      "url": "https://github.com/supabase/mcp",
+      "stars": 2939,
+      "pushedAt": "2026-10-07T06:24:21Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "makenotion/notion-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Notion's MCP server.",
+      "url": "https://github.com/makenotion/notion-mcp-server",
+      "stars": 4665,
+      "pushedAt": "2026-09-20T23:09:02Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "atlassian/atlassian-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Atlassian's remote MCP server for Jira, Confluence and Bitbucket.",
+      "url": "https://github.com/atlassian/atlassian-mcp-server",
+      "stars": 1085,
+      "pushedAt": "2026-10-07T18:28:41Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "sooperset/mcp-atlassian",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "MCP server for Jira and Confluence.",
+      "url": "https://github.com/sooperset/mcp-atlassian",
+      "stars": 5973,
+      "pushedAt": "2026-09-19T10:20:14Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "awslabs/mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "AWS Labs' MCP servers for AWS services.",
+      "url": "https://github.com/awslabs/mcp",
+      "stars": 9761,
+      "pushedAt": "2026-10-07T21:26:23Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "microsoft/mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Catalog of Microsoft's official MCP servers, including Azure.",
+      "url": "https://github.com/microsoft/mcp",
+      "stars": 3743,
+      "pushedAt": "2026-10-07T22:48:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "MicrosoftDocs/mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Microsoft Learn MCP server for current Microsoft docs and code samples.",
+      "url": "https://github.com/MicrosoftDocs/mcp",
+      "stars": 1936,
+      "pushedAt": "2026-09-29T06:34:34Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "googleapis/mcp-toolbox",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Google's MCP server for databases.",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "stars": 16618,
+      "pushedAt": "2026-10-07T19:42:50Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "hashicorp/terraform-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "HashiCorp's MCP server for the Terraform registry and workspaces.",
+      "url": "https://github.com/hashicorp/terraform-mcp-server",
+      "stars": 1545,
+      "pushedAt": "2026-10-07T23:20:47Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mongodb-js/mongodb-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "MongoDB's MCP server for databases and Atlas.",
+      "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "stars": 1141,
+      "pushedAt": "2026-10-07T18:05:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "grafana/mcp-grafana",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Grafana's MCP server.",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "stars": 3530,
+      "pushedAt": "2026-10-07T23:40:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "firecrawl/firecrawl-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Firecrawl's MCP server for scraping, crawling and search.",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "stars": 7565,
+      "pushedAt": "2026-10-08T00:13:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "exa-labs/exa-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Exa's MCP server for web search and crawling.",
+      "url": "https://github.com/exa-labs/exa-mcp-server",
+      "stars": 5091,
+      "pushedAt": "2026-10-07T22:45:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "tavily-ai/tavily-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Tavily's MCP server for search, extract, map and crawl.",
+      "url": "https://github.com/tavily-ai/tavily-mcp",
+      "stars": 2422,
+      "pushedAt": "2026-10-05T17:01:00Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "getsentry/MobileBuildMCP",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Sentry's MCP server and CLI for building and testing iOS and macOS projects.",
+      "url": "https://github.com/getsentry/MobileBuildMCP",
+      "stars": 6464,
+      "pushedAt": "2026-10-02T03:43:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "docker/mcp-gateway",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Docker's MCP gateway and CLI plugin for running MCP servers in containers.",
+      "url": "https://github.com/docker/mcp-gateway",
+      "stars": 1589,
+      "pushedAt": "2026-09-23T16:47:37Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "perplexityai/modelcontextprotocol",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Perplexity's MCP server for the Perplexity API.",
+      "url": "https://github.com/perplexityai/modelcontextprotocol",
+      "stars": 2552,
+      "pushedAt": "2026-09-25T20:11:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mobile-next/mobile-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Mobile automation for iOS and Android simulators, emulators and devices.",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "stars": 8748,
+      "pushedAt": "2026-10-07T20:38:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "idosal/git-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Remote MCP server that serves docs for any GitHub project.",
+      "url": "https://github.com/idosal/git-mcp",
+      "stars": 8455,
+      "pushedAt": "2026-05-08T14:21:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Terminal control, file search and diff-based editing over MCP.",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "stars": 9954,
+      "pushedAt": "2026-10-07T05:29:19Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "BeehiveInnovations/pal-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Lets one agent consult other models and CLIs for review, debugging and planning.",
+      "url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+      "stars": 11773,
+      "pushedAt": "2025-12-15T17:07:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "21st-dev/magic-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Generates and searches React and Tailwind components from prompts.",
+      "url": "https://github.com/21st-dev/magic-mcp",
+      "stars": 5977,
+      "pushedAt": "2026-09-09T20:38:22Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "czlonkowski/n8n-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "n8n node documentation and workflow management for agents.",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "stars": 23049,
+      "pushedAt": "2026-10-06T13:22:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "CoplayDev/unity-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Bridge between agents and the Unity Editor.",
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "stars": 14748,
+      "pushedAt": "2026-10-07T04:28:13Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Coding-Solo/godot-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Launch, run and debug Godot projects from an agent.",
+      "url": "https://github.com/Coding-Solo/godot-mcp",
+      "stars": 5969,
+      "pushedAt": "2026-04-16T23:37:00Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ahujasid/mcp-for-blender",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Control Blender from an agent over MCP.",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "stars": 30192,
+      "pushedAt": "2026-10-06T15:08:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mrexodia/ida-pro-mcp",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "IDA Pro reverse engineering tools over MCP.",
+      "url": "https://github.com/mrexodia/ida-pro-mcp",
+      "stars": 12512,
+      "pushedAt": "2026-09-26T15:42:10Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "hangwin/mcp-chrome",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Chrome extension that exposes your browser to agents over MCP.",
+      "url": "https://github.com/hangwin/mcp-chrome",
+      "stars": 12470,
+      "pushedAt": "2026-01-06T13:05:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "apify/apify-mcp-server",
+      "category": "mcp",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Apify's MCP server for web scraping Actors.",
+      "url": "https://github.com/apify/apify-mcp-server",
+      "stars": 10052,
+      "pushedAt": "2026-10-07T12:58:11Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Captures session activity, compresses it and injects context into later sessions.",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 97709,
+      "pushedAt": "2026-10-07T00:57:45Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "rtk-ai/rtk",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "CLI proxy that filters and compresses command output before it reaches the agent.",
+      "url": "https://github.com/rtk-ai/rtk",
+      "stars": 82639,
+      "pushedAt": "2026-10-07T16:11:56Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "headroomlabs-ai/headroom",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Local compression of tool output, logs and files before they reach the model.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "stars": 74596,
+      "pushedAt": "2026-10-07T23:00:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Pre-indexed code knowledge graph that syncs on code changes.",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 73405,
+      "pushedAt": "2026-10-07T16:34:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gastownhall/beads",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Dependency-aware issue graph that gives agents persistent task memory.",
+      "url": "https://github.com/gastownhall/beads",
+      "stars": 27717,
+      "pushedAt": "2026-10-07T11:10:39Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Sandboxes tool output and persists session memory to save context.",
+      "url": "https://github.com/mksglu/context-mode",
+      "stars": 25626,
+      "pushedAt": "2026-10-07T12:07:51Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Persistent memory for coding agents.",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "stars": 29217,
+      "pushedAt": "2026-10-06T18:00:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Gentleman-Programming/engram",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Agent-agnostic memory in SQLite with MCP server, HTTP API, CLI and TUI.",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "stars": 7081,
+      "pushedAt": "2026-10-07T20:54:08Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Persistent codebase map so agents read only the code that matters.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "stars": 31959,
+      "pushedAt": "2026-10-06T19:33:08Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "yamadashy/repomix",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Packs a repository into one AI-friendly file; also runs as an MCP server.",
+      "url": "https://github.com/yamadashy/repomix",
+      "stars": 28740,
+      "pushedAt": "2026-10-03T17:20:27Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Egonex-AI/Understand-Anything",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Turns a codebase or docs into an interactive knowledge graph you can query.",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "stars": 85529,
+      "pushedAt": "2026-10-06T02:50:30Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "category": "context",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Indexes a codebase into a persistent knowledge graph served over MCP.",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "stars": 46009,
+      "pushedAt": "2026-10-07T23:48:52Z",
       "archived": false,
       "stale": false
     },
@@ -905,8 +3129,149 @@
       ],
       "description": "macOS menu bar app for Codex and Claude Code usage limits.",
       "url": "https://github.com/steipete/CodexBar",
-      "stars": 22289,
-      "pushedAt": "2026-10-07T23:37:22Z",
+      "stars": 22288,
+      "pushedAt": "2026-10-08T00:09:32Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "getagentseal/codeburn",
+      "category": "statusline",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Local token and cost tracking across many coding agents.",
+      "url": "https://github.com/getagentseal/codeburn",
+      "stars": 11351,
+      "pushedAt": "2026-10-07T23:51:56Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "junhoyeo/tokscale",
+      "category": "statusline",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Token usage tracking across coding agents from the terminal.",
+      "url": "https://github.com/junhoyeo/tokscale",
+      "stars": 5640,
+      "pushedAt": "2026-10-05T06:07:43Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "kenn-io/agentsview",
+      "category": "statusline",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Local session search, analytics and token stats for coding agents.",
+      "url": "https://github.com/kenn-io/agentsview",
+      "stars": 6072,
+      "pushedAt": "2026-10-08T00:22:33Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "robinebers/openusage",
+      "category": "statusline",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "macOS menu bar app tracking AI coding plan limits and spend.",
+      "url": "https://github.com/robinebers/openusage",
+      "stars": 4333,
+      "pushedAt": "2026-10-06T12:37:18Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "nilbuild/claude-statusline",
+      "category": "statusline",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Minimal Claude Code statusline.",
+      "url": "https://github.com/nilbuild/claude-statusline",
+      "stars": 1397,
+      "pushedAt": "2026-04-03T20:19:55Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "GaoSSR/best-claude-hud",
+      "category": "statusline",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Statusline HUD for Claude Code written in Rust.",
+      "url": "https://github.com/GaoSSR/best-claude-hud",
+      "stars": 1109,
+      "pushedAt": "2026-08-13T06:35:15Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "matt1398/claude-devtools",
+      "category": "statusline",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Visual inspector for Claude Code session logs, tool calls, tokens and subagents.",
+      "url": "https://github.com/matt1398/claude-devtools",
+      "stars": 3969,
+      "pushedAt": "2026-09-26T07:43:48Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "phuryn/claude-usage",
+      "category": "statusline",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Local dashboard for Claude Code token usage, cost and sessions.",
+      "url": "https://github.com/phuryn/claude-usage",
+      "stars": 2255,
+      "pushedAt": "2026-07-10T10:08:48Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "tddworks/ClaudeBar",
+      "category": "statusline",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "macOS menu bar app for Claude, Codex and Gemini usage quotas.",
+      "url": "https://github.com/tddworks/ClaudeBar",
+      "stars": 1529,
+      "pushedAt": "2026-10-07T15:19:14Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Iamshankhadeep/ccseva",
+      "category": "statusline",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "macOS menu bar app for Claude Code usage.",
+      "url": "https://github.com/Iamshankhadeep/ccseva",
+      "stars": 806,
+      "pushedAt": "2026-08-03T18:18:11Z",
       "archived": false,
       "stale": false
     },
@@ -963,6 +3328,392 @@
       "stale": false
     },
     {
+      "repo": "PeonPing/peon-ping",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Voice notifications for agent events, with Warcraft peon and other sound packs.",
+      "url": "https://github.com/PeonPing/peon-ping",
+      "stars": 5066,
+      "pushedAt": "2026-10-06T15:43:57Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "entireio/cli",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Captures agent sessions via hooks and indexes them alongside commits.",
+      "url": "https://github.com/entireio/cli",
+      "stars": 5159,
+      "pushedAt": "2026-10-08T00:23:25Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "FailproofAI/failproofai",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Hooks that capture agent runs and enforce policies.",
+      "url": "https://github.com/FailproofAI/failproofai",
+      "stars": 5255,
+      "pushedAt": "2026-10-07T09:43:48Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "severity1/claude-code-prompt-improver",
+      "category": "hooks",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Hook that asks clarifying questions when a prompt is vague.",
+      "url": "https://github.com/severity1/claude-code-prompt-improver",
+      "stars": 1939,
+      "pushedAt": "2026-10-01T04:27:45Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "coleam00/claude-memory-compiler",
+      "category": "hooks",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Hooks capture sessions and the Agent SDK compiles them into project memory.",
+      "url": "https://github.com/coleam00/claude-memory-compiler",
+      "stars": 1297,
+      "pushedAt": "2026-04-06T19:46:57Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "nizos/tdd-guard",
+      "category": "hooks",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Hook-based test-driven development enforcement for Claude Code.",
+      "url": "https://github.com/nizos/tdd-guard",
+      "stars": 2359,
+      "pushedAt": "2026-10-05T09:29:32Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Dicklesworthstone/destructive_command_guard",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Blocks dangerous git and shell commands before an agent runs them.",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "stars": 6107,
+      "pushedAt": "2026-10-07T19:48:02Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "kenryu42/cc-safety-net",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Pre-execution guard against destructive git and file system commands.",
+      "url": "https://github.com/kenryu42/cc-safety-net",
+      "stars": 1582,
+      "pushedAt": "2026-10-08T00:12:22Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "777genius/agent-notifications",
+      "category": "hooks",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "Desktop notifications, sounds and webhooks for agent events.",
+      "url": "https://github.com/777genius/agent-notifications",
+      "stars": 815,
+      "pushedAt": "2026-10-08T00:17:46Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "stablyai/orca",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Desktop app that runs agents side by side, each in its own worktree.",
+      "url": "https://github.com/stablyai/orca",
+      "stars": 87116,
+      "pushedAt": "2026-10-08T00:22:09Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "smtg-ai/claude-squad",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Terminal app that manages several agents in tmux sessions and worktrees.",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "stars": 8579,
+      "pushedAt": "2026-08-20T05:09:53Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "manaflow-ai/cmux",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Ghostty-based macOS terminal with vertical tabs and agent notifications.",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "stars": 27833,
+      "pushedAt": "2026-10-08T00:21:57Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "CLI for git worktree management in parallel agent workflows.",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "stars": 8966,
+      "pushedAt": "2026-10-07T18:36:21Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "superset-sh/superset",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Desktop app for running many coding agents in parallel.",
+      "url": "https://github.com/superset-sh/superset",
+      "stars": 14969,
+      "pushedAt": "2026-10-08T00:18:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "getpaseo/paseo",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Orchestrates coding agents from desktop and mobile.",
+      "url": "https://github.com/getpaseo/paseo",
+      "stars": 20005,
+      "pushedAt": "2026-10-07T23:01:23Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "openai/symphony",
+      "category": "orchestration",
+      "agents": [
+        "codex"
+      ],
+      "description": "OpenAI's service that turns tracker issues into isolated autonomous agent runs.",
+      "url": "https://github.com/openai/symphony",
+      "stars": 27592,
+      "pushedAt": "2026-09-15T22:14:59Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "herdrdev/herdr",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Persistent terminal runtime for coding agents that survives disconnects.",
+      "url": "https://github.com/herdrdev/herdr",
+      "stars": 42824,
+      "pushedAt": "2026-10-07T23:30:50Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "category": "orchestration",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Multi-agent swarm orchestration for Claude Code.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "stars": 74071,
+      "pushedAt": "2026-10-07T22:37:30Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "category": "orchestration",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Team-based multi-agent orchestration for Claude Code.",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "stars": 39658,
+      "pushedAt": "2026-10-07T20:16:42Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "coleam00/Archon",
+      "category": "orchestration",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Workflow engine that runs YAML-defined development processes with agents.",
+      "url": "https://github.com/coleam00/Archon",
+      "stars": 23639,
+      "pushedAt": "2026-10-08T00:21:19Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "NanmiCoder/cc-haha",
+      "category": "orchestration",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Desktop workspace for Claude Code with worktrees, diffs and multi-agent runs.",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "stars": 14896,
+      "pushedAt": "2026-10-05T21:21:08Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "winfunc/opcode",
+      "category": "orchestration",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Desktop GUI for Claude Code sessions and custom agents.",
+      "url": "https://github.com/winfunc/opcode",
+      "stars": 22421,
+      "pushedAt": "2026-09-18T16:18:10Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "siteboon/claudecodeui",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "description": "Web and mobile UI for Claude Code, Codex and Cursor CLI sessions.",
+      "url": "https://github.com/siteboon/claudecodeui",
+      "stars": 13968,
+      "pushedAt": "2026-10-07T18:25:40Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "slopus/happy",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Desktop and mobile client to control Claude Code and Codex remotely.",
+      "url": "https://github.com/slopus/happy",
+      "stars": 24050,
+      "pushedAt": "2026-10-07T09:28:34Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "chenhg5/cc-connect",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Bridges local coding agents to Slack, Telegram, Feishu and other chat apps.",
+      "url": "https://github.com/chenhg5/cc-connect",
+      "stars": 15822,
+      "pushedAt": "2026-09-29T03:13:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "dagger/container-use",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Containerized environments so several agents can work in parallel safely.",
+      "url": "https://github.com/dagger/container-use",
+      "stars": 4060,
+      "pushedAt": "2026-09-21T14:05:02Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "iOfficeAI/AionUi",
+      "category": "orchestration",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "Desktop cowork app for Claude Code, Codex, Gemini CLI and other CLI agents.",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 33362,
+      "pushedAt": "2026-09-09T07:57:01Z",
+      "archived": false,
+      "stale": false
+    },
+    {
       "repo": "vercel-labs/skills",
       "category": "tooling",
       "agents": [
@@ -973,7 +3724,7 @@
       ],
       "description": "`npx skills` CLI to install and update skills across agents.",
       "url": "https://github.com/vercel-labs/skills",
-      "stars": 33358,
+      "stars": 33359,
       "pushedAt": "2026-10-07T22:40:51Z",
       "archived": false,
       "stale": false
@@ -1004,7 +3755,7 @@
       ],
       "description": "Desktop app to manage and sync skills across agents.",
       "url": "https://github.com/xingkongliang/skills-manager",
-      "stars": 5695,
+      "stars": 5696,
       "pushedAt": "2026-10-04T14:01:38Z",
       "archived": false,
       "stale": false
@@ -1089,8 +3840,407 @@
       ],
       "description": "Routes agent requests to other model providers.",
       "url": "https://github.com/musistudio/claude-code-router",
-      "stars": 37586,
+      "stars": 37587,
       "pushedAt": "2026-09-26T15:00:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "Desktop app to switch providers, MCP servers and skills for several coding CLIs.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "stars": 140781,
+      "pushedAt": "2026-10-07T16:10:45Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "SaladDay/cc-switch-cli",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "CLI for switching Claude Code, Codex and Gemini CLI providers and configs.",
+      "url": "https://github.com/SaladDay/cc-switch-cli",
+      "stars": 5232,
+      "pushedAt": "2026-10-07T14:11:34Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Gentleman-Programming/gentle-ai",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Configures memory, skills and workflows across your coding agents.",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "stars": 7591,
+      "pushedAt": "2026-10-08T00:18:07Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "intellectronica/ruler",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Applies one set of rules to all coding agents.",
+      "url": "https://github.com/intellectronica/ruler",
+      "stars": 2943,
+      "pushedAt": "2026-09-30T17:05:26Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "dyoshikawa/rulesync",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "CLI that generates rules, MCP and command configs for many agents.",
+      "url": "https://github.com/dyoshikawa/rulesync",
+      "stars": 1506,
+      "pushedAt": "2026-10-05T04:28:31Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "agent-sh/agnix",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Linter and LSP for CLAUDE.md, AGENTS.md, SKILL.md, hooks and MCP configs.",
+      "url": "https://github.com/agent-sh/agnix",
+      "stars": 445,
+      "pushedAt": "2026-10-06T21:37:46Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "yusufkaraaslan/Skill_Seekers",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "cursor"
+      ],
+      "description": "Converts docs sites, GitHub repos and PDFs into skills.",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "stars": 15114,
+      "pushedAt": "2026-09-30T18:49:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli"
+      ],
+      "description": "Security scanner for agent skills: injection, exfiltration and malicious patterns.",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "stars": 19645,
+      "pushedAt": "2026-10-07T17:12:25Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "UfoMiao/zcf",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Zero-config setup of Claude Code and Codex with workflows and MCP services.",
+      "url": "https://github.com/UfoMiao/zcf",
+      "stars": 6082,
+      "pushedAt": "2026-08-31T03:02:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Piebald-AI/tweakcc",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Customizes Claude Code's system prompts, toolsets, themes and spinners.",
+      "url": "https://github.com/Piebald-AI/tweakcc",
+      "stars": 2535,
+      "pushedAt": "2026-10-06T22:56:54Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-code-action",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's GitHub Action that runs Claude Code on PRs and issues.",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "stars": 9443,
+      "pushedAt": "2026-10-07T18:16:05Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-code-security-review",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's GitHub Action for security review of code changes.",
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "stars": 6318,
+      "pushedAt": "2026-02-11T18:01:23Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "openai/codex-action",
+      "category": "tooling",
+      "agents": [
+        "codex"
+      ],
+      "description": "OpenAI's GitHub Action that runs Codex in workflows.",
+      "url": "https://github.com/openai/codex-action",
+      "stars": 1258,
+      "pushedAt": "2026-10-05T23:36:41Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "openai/codex-security",
+      "category": "tooling",
+      "agents": [
+        "codex"
+      ],
+      "description": "OpenAI's Codex Security CLI and SDK for finding and fixing vulnerabilities.",
+      "url": "https://github.com/openai/codex-security",
+      "stars": 11009,
+      "pushedAt": "2026-10-08T00:12:52Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "google-github-actions/run-gemini-cli",
+      "category": "tooling",
+      "agents": [
+        "gemini-cli"
+      ],
+      "description": "Google's GitHub Action that runs Gemini CLI in workflows.",
+      "url": "https://github.com/google-github-actions/run-gemini-cli",
+      "stars": 2103,
+      "pushedAt": "2026-08-21T16:03:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "github/gh-aw",
+      "category": "tooling",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "GitHub's agentic workflows: Markdown-defined agent runs in GitHub Actions.",
+      "url": "https://github.com/github/gh-aw",
+      "stars": 5356,
+      "pushedAt": "2026-10-08T00:20:06Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/sandbox-runtime",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's OS-level filesystem and network sandbox for agent processes.",
+      "url": "https://github.com/anthropics/sandbox-runtime",
+      "stars": 5460,
+      "pushedAt": "2026-10-07T22:16:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-agent-sdk-python",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Python SDK for building agents on the Claude Code harness.",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "stars": 8221,
+      "pushedAt": "2026-10-07T18:13:35Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/claude-agent-sdk-typescript",
+      "category": "tooling",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "TypeScript SDK for building agents on the Claude Code harness.",
+      "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
+      "stars": 1788,
+      "pushedAt": "2026-10-07T18:10:38Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Claude Code practices and examples, from setup to agentic engineering.",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "stars": 67240,
+      "pushedAt": "2026-10-07T06:46:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "luongnv89/claude-howto",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Visual, example-driven Claude Code guide with copy-paste templates.",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "stars": 41772,
+      "pushedAt": "2026-09-30T12:33:25Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "ykdojo/claude-code-tips",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "45+ Claude Code tips, including a statusline script.",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "stars": 10202,
+      "pushedAt": "2026-09-25T03:50:54Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "shareAI-lab/learn-claude-code",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Builds a minimal Claude Code-like agent harness step by step.",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "stars": 78118,
+      "pushedAt": "2026-09-28T13:49:16Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "coleam00/context-engineering-intro",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Context engineering templates and examples for Claude Code.",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "stars": 13887,
+      "pushedAt": "2026-03-16T12:13:59Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "Piebald-AI/claude-code-system-prompts",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Claude Code's system prompt, tool descriptions and subagent prompts by version.",
+      "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+      "stars": 12850,
+      "pushedAt": "2026-10-06T18:13:04Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "diet103/claude-code-infrastructure-showcase",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Example Claude Code setup with skill auto-activation, hooks and agents.",
+      "url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+      "stars": 10030,
+      "pushedAt": "2026-07-13T22:59:08Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "cursor/cookbook",
+      "category": "learning",
+      "agents": [
+        "cursor"
+      ],
+      "description": "Cursor's small examples for building with Cursor, including hooks.",
+      "url": "https://github.com/cursor/cookbook",
+      "stars": 4119,
+      "pushedAt": "2026-10-07T19:23:51Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "anthropics/code-migration-kit-with-claude-code",
+      "category": "learning",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Anthropic's prompts, templates and scripts for large language migrations.",
+      "url": "https://github.com/anthropics/code-migration-kit-with-claude-code",
+      "stars": 743,
+      "pushedAt": "2026-07-08T15:00:59Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "KimYx0207/AI-Coding-Guide-Zh",
+      "category": "learning",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Chinese tutorials for Claude Code and Codex with hands-on examples.",
+      "url": "https://github.com/KimYx0207/AI-Coding-Guide-Zh",
+      "stars": 6174,
+      "pushedAt": "2026-10-03T14:13:25Z",
       "archived": false,
       "stale": false
     },
@@ -1102,7 +4252,7 @@
       ],
       "description": "Curated Claude Code resources.",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "stars": 55210,
+      "stars": 55211,
       "pushedAt": "2026-10-07T21:09:34Z",
       "archived": false,
       "stale": false
@@ -1118,7 +4268,7 @@
       ],
       "description": "1000+ agent skills indexed by source.",
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "stars": 35337,
+      "stars": 35338,
       "pushedAt": "2026-10-07T11:26:48Z",
       "archived": false,
       "stale": false
@@ -1131,7 +4281,7 @@
       ],
       "description": "Curated Claude skills and resources.",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "stars": 76670,
+      "stars": 76671,
       "pushedAt": "2026-09-18T07:16:11Z",
       "archived": false,
       "stale": false
@@ -1184,7 +4334,76 @@
       "description": "Automated index of Claude Code plugins with adoption metrics.",
       "url": "https://github.com/quemsah/awesome-claude-plugins",
       "stars": 1416,
-      "pushedAt": "2026-10-07T09:02:00Z",
+      "pushedAt": "2026-10-08T00:23:03Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "punkpeye/awesome-mcp-servers",
+      "category": "lists",
+      "agents": [
+        "claude-code",
+        "codex",
+        "gemini-cli",
+        "cursor"
+      ],
+      "description": "Large curated list of MCP servers.",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "stars": 95910,
+      "pushedAt": "2026-09-27T02:12:17Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "travisvn/awesome-claude-skills",
+      "category": "lists",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Curated Claude skills and resources.",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "stars": 15303,
+      "pushedAt": "2026-04-28T19:30:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "BehiSecc/awesome-claude-skills",
+      "category": "lists",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Curated list of Claude skills.",
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "stars": 10220,
+      "pushedAt": "2026-09-21T07:16:41Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "heilcheng/awesome-agent-skills",
+      "category": "lists",
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
+      "description": "Tutorials, guides and directories for agent skills.",
+      "url": "https://github.com/heilcheng/awesome-agent-skills",
+      "stars": 6263,
+      "pushedAt": "2026-04-05T20:39:24Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "hashgraph-online/awesome-codex-plugins",
+      "category": "lists",
+      "agents": [
+        "codex"
+      ],
+      "description": "Curated Codex plugins, skills and resources.",
+      "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
+      "stars": 1240,
+      "pushedAt": "2026-10-07T21:53:58Z",
       "archived": false,
       "stale": false
     }
