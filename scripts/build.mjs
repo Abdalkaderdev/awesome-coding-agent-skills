@@ -22,8 +22,11 @@ if (check) {
   console.log(`ok: ${repos.length} entries valid and reachable`);
 } else {
   const now = new Date();
+  const siteUrl = new URL('site/data.json', root);
   const site = { generatedAt: now.toISOString(), agents: data.agents, categories: data.categories, entries: merge(data, stats, now) };
-  await writeFile(new URL('site/data.json', root), JSON.stringify(site, null, 2) + '\n');
+  const prev = JSON.parse(await readFile(siteUrl, 'utf8').catch(() => '{}'));
+  if (JSON.stringify({ ...prev, generatedAt: site.generatedAt }) === JSON.stringify(site)) site.generatedAt = prev.generatedAt;
+  await writeFile(siteUrl, JSON.stringify(site, null, 2) + '\n');
   const readmeUrl = new URL('README.md', root);
   await writeFile(readmeUrl, injectReadme(await readFile(readmeUrl, 'utf8'), renderList(data, stats, now)));
   console.log(`wrote README.md and site/data.json (${repos.length} entries)`);

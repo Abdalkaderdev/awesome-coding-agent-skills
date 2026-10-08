@@ -96,7 +96,8 @@ export async function fetchStats(repos, token) {
       body: JSON.stringify({ query }),
     });
     if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
-    const { data } = await res.json();
+    const { data, errors } = await res.json();
+    if (!data) throw new Error(`GitHub API: ${JSON.stringify(errors)}`);
     chunk.forEach((r, j) => {
       const v = data?.[`r${j}`];
       stats[r] = v && { name: v.nameWithOwner, stars: v.stargazerCount, pushedAt: v.pushedAt, archived: v.isArchived };
