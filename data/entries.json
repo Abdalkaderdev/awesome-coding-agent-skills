@@ -309,12 +309,28 @@
     { "repo": "anthropics/claude-agent-sdk-python", "category": "tooling", "agents": ["claude-code"], "description": "Python SDK for building agents on the Claude Code harness." },
     { "repo": "anthropics/claude-agent-sdk-typescript", "category": "tooling", "agents": ["claude-code"], "description": "TypeScript SDK for building agents on the Claude Code harness." },
 
+    { "repo": "shanraisshan/claude-code-best-practice", "category": "learning", "agents": ["claude-code"], "description": "Claude Code practices and examples, from setup to agentic engineering." },
+    { "repo": "luongnv89/claude-howto", "category": "learning", "agents": ["claude-code"], "description": "Visual, example-driven Claude Code guide with copy-paste templates." },
+    { "repo": "ykdojo/claude-code-tips", "category": "learning", "agents": ["claude-code"], "description": "45+ Claude Code tips, including a statusline script." },
+    { "repo": "shareAI-lab/learn-claude-code", "category": "learning", "agents": ["claude-code"], "description": "Builds a minimal Claude Code-like agent harness step by step." },
+    { "repo": "coleam00/context-engineering-intro", "category": "learning", "agents": ["claude-code"], "description": "Context engineering templates and examples for Claude Code." },
+    { "repo": "Piebald-AI/claude-code-system-prompts", "category": "learning", "agents": ["claude-code"], "description": "Claude Code's system prompt, tool descriptions and subagent prompts by version." },
+    { "repo": "diet103/claude-code-infrastructure-showcase", "category": "learning", "agents": ["claude-code"], "description": "Example Claude Code setup with skill auto-activation, hooks and agents." },
+    { "repo": "cursor/cookbook", "category": "learning", "agents": ["cursor"], "description": "Cursor's small examples for building with Cursor, including hooks." },
+    { "repo": "anthropics/code-migration-kit-with-claude-code", "category": "learning", "agents": ["claude-code"], "description": "Anthropic's prompts, templates and scripts for large language migrations." },
+    { "repo": "KimYx0207/AI-Coding-Guide-Zh", "category": "learning", "agents": ["claude-code", "codex"], "description": "Chinese tutorials for Claude Code and Codex with hands-on examples." },
+
     { "repo": "hesreallyhim/awesome-claude-code", "category": "lists", "agents": ["claude-code"], "description": "Curated Claude Code resources." },
     { "repo": "VoltAgent/awesome-agent-skills", "category": "lists", "agents": ["claude-code", "codex", "gemini-cli", "cursor"], "description": "1000+ agent skills indexed by source." },
     { "repo": "ComposioHQ/awesome-claude-skills", "category": "lists", "agents": ["claude-code"], "description": "Curated Claude skills and resources." },
     { "repo": "composio-community/awesome-codex-skills", "category": "lists", "agents": ["codex"], "description": "Curated Codex skills." },
     { "repo": "RoggeOhta/awesome-codex-cli", "category": "lists", "agents": ["codex"], "description": "Tools, skills, subagents and plugins for Codex CLI." },
     { "repo": "Piebald-AI/awesome-gemini-cli", "category": "lists", "agents": ["gemini-cli"], "description": "Tools, extensions and resources for Gemini CLI." },
-    { "repo": "quemsah/awesome-claude-plugins", "category": "lists", "agents": ["claude-code"], "description": "Automated index of Claude Code plugins with adoption metrics." }
+    { "repo": "quemsah/awesome-claude-plugins", "category": "lists", "agents": ["claude-code"], "description": "Automated index of Claude Code plugins with adoption metrics." },
+    { "repo": "punkpeye/awesome-mcp-servers", "category": "lists", "agents": ["claude-code", "codex", "gemini-cli", "cursor"], "description": "Large curated list of MCP servers." },
+    { "repo": "travisvn/awesome-claude-skills", "category": "lists", "agents": ["claude-code"], "description": "Curated Claude skills and resources." },
+    { "repo": "BehiSecc/awesome-claude-skills", "category": "lists", "agents": ["claude-code"], "description": "Curated list of Claude skills." },
+    { "repo": "heilcheng/awesome-agent-skills", "category": "lists", "agents": ["claude-code", "codex"], "description": "Tutorials, guides and directories for agent skills." },
+    { "repo": "hashgraph-online/awesome-codex-plugins", "category": "lists", "agents": ["codex"], "description": "Curated Codex plugins, skills and resources." }
   ]
 }
