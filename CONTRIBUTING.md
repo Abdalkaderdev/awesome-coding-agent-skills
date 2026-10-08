@@ -7,7 +7,7 @@ Additions, corrections and removals are welcome. Open a pull request that edits 
 An entry must:
 
 - Be a public GitHub repository that works with at least one of Claude Code, Codex, Gemini CLI or Cursor.
-- Be a skill, skill collection, plugin, extension, subagent collection, rules collection, hook, statusline, usage tool, memory or context tool, session or orchestration tool, skill manager, MCP server, or guide used with coding agents.
+- Be a skill, skill collection, plugin, extension, subagent collection, rules collection, hook, statusline, usage tool, memory or context tool, session or orchestration tool, skill manager, CI action or SDK, MCP server, guide, or curated list used with coding agents.
 - Have a README that explains what it does and how to install it.
 - Have at least 100 stars, or be published by the vendor of the tool it extends.
 - Have had a push in the last 12 months when added.
