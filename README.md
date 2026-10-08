@@ -113,7 +113,7 @@ Opinionated development processes packaged as skills, commands or plugins.
 | [obra/superpowers](https://github.com/obra/superpowers) | Skills-based development method: brainstorm, plan, TDD, review. | `CC` `CX` `GC` `CU` | 296k | 2026-10-06 |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Skills, agents, hooks and rules for agent performance, memory and security. | `CC` `CX` `CU` | 275k | 2026-10-05 |
 | [github/spec-kit](https://github.com/github/spec-kit) | GitHub's toolkit for spec-driven development. | `CC` `CX` `GC` `CU` | 141k | 2026-10-07 |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan's setup: role-based skills for planning, review, QA and shipping. | `CC` `CX` | 136k | 2026-10-07 |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan's setup: role-based skills for planning, review, QA and shipping. | `CC` `CX` `CU` | 136k | 2026-10-07 |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development with change proposals, specs and tasks. | `CC` `CX` `GC` `CU` | 71k | 2026-10-07 |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Agile planning and development method driven by role agents. | `CC` `CX` `CU` | 54k | 2026-10-07 |
 | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Task management from PRDs, usable via CLI or MCP. | `CC` `CX` `CU` | 28k | 2026-04-28 |
@@ -126,9 +126,10 @@ Opinionated development processes packaged as skills, commands or plugins.
 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | Visual annotation and review of agent plans and diffs, with feedback sent back. | `CC` `CX` `GC` | 9.2k | 2026-10-08 |
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | Project management using GitHub Issues and git worktrees. | `CC` `CX` `CU` | 8.4k | 2026-03-18 |
 | [MrLesk/Backlog.md](https://github.com/MrLesk/Backlog.md) | Markdown task board in the repo for humans and agents, with CLI and MCP. | `CC` `CX` `GC` `CU` | 7k | 2026-10-07 |
-| [Q00/ouroboros](https://github.com/Q00/ouroboros) | Interview-gated, staged evaluation loop for replayable AI coding workflows. | `CC` `CX` | 6.2k | 2026-10-07 |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | Interview-gated, staged evaluation loop for replayable AI coding workflows. | `CC` `CX` `GC` | 6.2k | 2026-10-07 |
 | [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) | Context management with ledgers and handoffs maintained by hooks. | `CC` | 3.9k | 2026-01-26 |
 | [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | Code review, security review and design review workflows. | `CC` | 3.9k | 2026-10-06 |
+| [gemini-cli-extensions/conductor](https://github.com/gemini-cli-extensions/conductor) | Spec-driven development plugin for Antigravity and Claude Code. | `CC` | 3.8k | 2026-09-01 |
 | [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) | Spec-driven development harness: requirements, design, tasks, implementation. | `CC` `CX` `GC` `CU` | 3.7k | 2026-09-23 |
 
 ## Plugins and marketplaces
@@ -142,7 +143,7 @@ Installable plugins and plugin catalogs.
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Anthropic-managed directory of Claude Code plugins. | `CC` | 38k | 2026-10-07 |
 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | OpenAI's Claude Code plugin to review code or delegate tasks to Codex. | `CC` | 34k | 2026-07-08 |
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Anthropic's role-based plugins for knowledge work, for Cowork and Claude Code. | `CC` | 27k | 2026-10-07 |
-| [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins. | `CU` | 10k | 2026-10-07 |
+| [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins. | `CU` | 10k | 2026-10-08 |
 | [anthropics/claude-for-legal](https://github.com/anthropics/claude-for-legal) | Anthropic's plugins for legal workflows. | `CC` | 9.6k | 2026-09-29 |
 | [openai/plugins](https://github.com/openai/plugins) | OpenAI's curated Codex plugin examples and default marketplace. | `CX` | 7.3k | 2026-09-28 |
 | [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) | Read-only mirror of the community plugin marketplace for Claude Code. | `CC` | 4.6k | 2026-10-05 |
@@ -166,10 +167,9 @@ Extensions installed with `gemini extensions install`.
 
 | Project | Description | Agents | Stars | Updated |
 | --- | --- | --- | ---: | --- |
-| [gemini-cli-extensions/conductor](https://github.com/gemini-cli-extensions/conductor) | Spec-driven development: specs, plans and tracked implementation. | `GC` `CC` | 3.8k | 2026-09-01 |
 | [gemini-cli-extensions/nanobanana](https://github.com/gemini-cli-extensions/nanobanana) | Image generation and editing with Gemini image models. | `GC` | 1.1k | 2026-06-25 |
 | [gemini-cli-extensions/security](https://github.com/gemini-cli-extensions/security) | Google's extension that scans code changes for vulnerabilities. | `GC` | 794 | 2026-07-25 |
-| [gemini-cli-extensions/workspace](https://github.com/gemini-cli-extensions/workspace) | Google Workspace access: Docs, Drive, Gmail, Calendar. | `GC` | 645 | 2026-10-05 |
+| [gemini-cli-extensions/workspace](https://github.com/gemini-cli-extensions/workspace) | Google Workspace access: Docs, Drive, Gmail, Calendar. | `GC` | 646 | 2026-10-05 |
 | [gemini-cli-extensions/code-review](https://github.com/gemini-cli-extensions/code-review) | Google's extension that reviews local code changes. | `GC` | 531 | 2026-03-10 |
 | [gemini-cli-extensions/stitch](https://github.com/gemini-cli-extensions/stitch) | Google's extension for designing UI with the Stitch MCP server. | `GC` | 477 | 2026-01-26 |
 | [gemini-cli-extensions/jules](https://github.com/gemini-cli-extensions/jules) | Delegates tasks to the Jules asynchronous coding agent. | `GC` | 413 | 2026-06-17 |
@@ -222,7 +222,6 @@ Cursor rules, AGENTS.md and similar instruction files.
 | [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | Cursor rules files by language and framework. | `CU` | 41k | 2026-05-30 |
 | [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | The AGENTS.md format specification and site. | `CX` `GC` `CU` | 25k | 2026-09-10 |
 | [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) | CLAUDE.md that keeps responses terse to cut output tokens. | `CC` | 6.1k | 2026-06-16 |
-| [steipete/agent-rules](https://github.com/steipete/agent-rules) **archived** | Rules and commands for working with Claude Code and Cursor. | `CC` `CU` | 5.7k | 2026-05-03 |
 | [sanjeed5/awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) | Cursor rules in .mdc format. | `CU` | 3.6k | 2026-05-19 |
 | [LakshmanTurlapati/Review-Gate](https://github.com/LakshmanTurlapati/Review-Gate) | Cursor rule and MCP tool that asks for review before a request ends. | `CU` | 1.5k | 2026-04-02 |
 | [agent0ai/dox](https://github.com/agent0ai/dox) | Self-documenting AGENTS.md files maintained by the agent. | `CX` `GC` `CU` | 1.5k | 2026-09-01 |
@@ -271,7 +270,7 @@ Model Context Protocol servers widely used with coding agents.
 | [perplexityai/modelcontextprotocol](https://github.com/perplexityai/modelcontextprotocol) | Perplexity's MCP server for the Perplexity API. | `CC` `CX` `GC` `CU` | 2.6k | 2026-09-25 |
 | [tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) | Tavily's MCP server for search, extract, map and crawl. | `CC` `CX` `GC` `CU` | 2.4k | 2026-10-05 |
 | [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) | Figma's guide and rules for the Figma MCP server. | `CC` `CX` `GC` `CU` | 2.1k | 2026-10-05 |
-| [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) | Microsoft Learn MCP server for current Microsoft docs and code samples. | `CC` `CX` `GC` `CU` | 1.9k | 2026-09-29 |
+| [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) | Microsoft Learn MCP server for current Microsoft docs and code samples. | `CC` `CX` `GC` `CU` | 1.9k | 2026-10-08 |
 | [docker/mcp-gateway](https://github.com/docker/mcp-gateway) | Docker's MCP gateway and CLI plugin for running MCP servers in containers. | `CC` `CX` `GC` `CU` | 1.6k | 2026-09-23 |
 | [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp's MCP server for the Terraform registry and workspaces. | `CC` `CX` `GC` `CU` | 1.5k | 2026-10-07 |
 | [mongodb-js/mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server) | MongoDB's MCP server for databases and Atlas. | `CC` `CX` `GC` `CU` | 1.1k | 2026-10-07 |
@@ -304,8 +303,8 @@ Statuslines, usage trackers and cost monitors.
 | Project | Description | Agents | Stars | Updated |
 | --- | --- | --- | ---: | --- |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | Plugin showing context usage, active tools and running agents. | `CC` | 28k | 2026-10-03 |
-| [steipete/CodexBar](https://github.com/steipete/CodexBar) | macOS menu bar app for Codex and Claude Code usage limits. | `CX` `CC` | 22k | 2026-10-08 |
-| [ccusage/ccusage](https://github.com/ccusage/ccusage) | Token usage and cost reports from local session logs. | `CC` `CX` | 19k | 2026-10-07 |
+| [steipete/CodexBar](https://github.com/steipete/CodexBar) | macOS menu bar app for Codex and Claude Code usage limits. | `CC` `CX` `CU` | 22k | 2026-10-08 |
+| [ccusage/ccusage](https://github.com/ccusage/ccusage) | Token usage and cost reports from local session logs. | `CC` `CX` `GC` | 19k | 2026-10-07 |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | Configurable statusline with powerline themes. | `CC` | 13k | 2026-10-06 |
 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | Local token and cost tracking across many coding agents. | `CC` `CX` `GC` `CU` | 11k | 2026-10-07 |
 | [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | Terminal usage monitor with burn rate and limit predictions. | `CC` | 8.7k | 2026-07-05 |
@@ -315,7 +314,7 @@ Statuslines, usage trackers and cost monitors.
 | [matt1398/claude-devtools](https://github.com/matt1398/claude-devtools) | Visual inspector for Claude Code session logs, tool calls, tokens and subagents. | `CC` | 4k | 2026-09-26 |
 | [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | Statusline written in Rust. | `CC` | 3.5k | 2026-03-14 |
 | [phuryn/claude-usage](https://github.com/phuryn/claude-usage) | Local dashboard for Claude Code token usage, cost and sessions. | `CC` | 2.3k | 2026-07-10 |
-| [tddworks/ClaudeBar](https://github.com/tddworks/ClaudeBar) | macOS menu bar app for Claude, Codex and Gemini usage quotas. | `CC` `CX` `GC` | 1.5k | 2026-10-07 |
+| [tddworks/ClaudeBar](https://github.com/tddworks/ClaudeBar) | macOS menu bar app for Claude, Codex and Gemini usage quotas. | `CC` `CX` `GC` `CU` | 1.5k | 2026-10-07 |
 | [nilbuild/claude-statusline](https://github.com/nilbuild/claude-statusline) | Minimal Claude Code statusline. | `CC` | 1.4k | 2026-04-03 |
 | [Owloops/claude-powerline](https://github.com/Owloops/claude-powerline) | Vim-style powerline statusline. | `CC` | 1.2k | 2026-10-04 |
 | [GaoSSR/best-claude-hud](https://github.com/GaoSSR/best-claude-hud) | Statusline HUD for Claude Code written in Rust. | `CC` | 1.1k | 2026-08-13 |
@@ -328,7 +327,7 @@ Hook collections, SDKs and observability built on hooks.
 | Project | Description | Agents | Stars | Updated |
 | --- | --- | --- | ---: | --- |
 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | Blocks dangerous git and shell commands before an agent runs them. | `CC` `CX` `GC` `CU` | 6.1k | 2026-10-07 |
-| [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai) | Hooks that capture agent runs and enforce policies. | `CC` `CX` | 5.3k | 2026-10-07 |
+| [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai) | Hooks that capture agent runs and enforce policies. | `CC` `CX` `CU` | 5.3k | 2026-10-07 |
 | [entireio/cli](https://github.com/entireio/cli) | Captures agent sessions via hooks and indexes them alongside commits. | `CC` `CX` `CU` | 5.2k | 2026-10-08 |
 | [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) | Voice notifications for agent events, with Warcraft peon and other sound packs. | `CC` `CX` `GC` `CU` | 5.1k | 2026-10-06 |
 | [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | Examples of every Claude Code hook event. | `CC` | 3.9k | 2026-03-04 |
@@ -347,12 +346,12 @@ Parallel agent runners, worktree managers and session clients.
 
 | Project | Description | Agents | Stars | Updated |
 | --- | --- | --- | ---: | --- |
-| [stablyai/orca](https://github.com/stablyai/orca) | Desktop app that runs agents side by side, each in its own worktree. | `CC` `CX` | 87k | 2026-10-08 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | Multi-agent swarm orchestration for Claude Code. | `CC` | 74k | 2026-10-07 |
+| [stablyai/orca](https://github.com/stablyai/orca) | Desktop app that runs agents side by side, each in its own worktree. | `CC` `CX` `CU` | 87k | 2026-10-08 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | Multi-agent swarm orchestration for Claude Code and Codex. | `CC` `CX` | 74k | 2026-10-07 |
 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | Persistent terminal runtime for coding agents that survives disconnects. | `CC` `CX` `CU` | 43k | 2026-10-07 |
 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Team-based multi-agent orchestration for Claude Code. | `CC` | 40k | 2026-10-07 |
 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Desktop cowork app for Claude Code, Codex, Gemini CLI and other CLI agents. | `CC` `CX` `GC` | 33k | 2026-09-09 |
-| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | Ghostty-based macOS terminal with vertical tabs and agent notifications. | `CC` `CX` | 28k | 2026-10-08 |
+| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | Ghostty-based macOS terminal with vertical tabs and agent notifications. | `CC` `CX` `GC` `CU` | 28k | 2026-10-08 |
 | [openai/symphony](https://github.com/openai/symphony) | OpenAI's service that turns tracker issues into isolated autonomous agent runs. | `CX` | 28k | 2026-09-15 |
 | [slopus/happy](https://github.com/slopus/happy) | Desktop and mobile client to control Claude Code and Codex remotely. | `CC` `CX` | 24k | 2026-10-07 |
 | [coleam00/Archon](https://github.com/coleam00/Archon) | Workflow engine that runs YAML-defined development processes with agents. | `CC` | 24k | 2026-10-08 |
@@ -363,7 +362,7 @@ Parallel agent runners, worktree managers and session clients.
 | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | Desktop workspace for Claude Code with worktrees, diffs and multi-agent runs. | `CC` | 15k | 2026-10-05 |
 | [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | Web and mobile UI for Claude Code, Codex and Cursor CLI sessions. | `CC` `CX` `CU` | 14k | 2026-10-07 |
 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | CLI for git worktree management in parallel agent workflows. | `CC` `CX` | 9k | 2026-10-07 |
-| [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | Terminal app that manages several agents in tmux sessions and worktrees. | `CC` `CX` | 8.6k | 2026-08-20 |
+| [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | Terminal app that manages several agents in tmux sessions and worktrees. | `CC` `CX` `GC` | 8.6k | 2026-08-20 |
 | [dagger/container-use](https://github.com/dagger/container-use) | Containerized environments so several agents can work in parallel safely. | `CC` `CX` `GC` `CU` | 4.1k | 2026-09-21 |
 
 ## Skill managers and tooling
@@ -426,7 +425,7 @@ Related curated lists.
 | --- | --- | --- | ---: | --- |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Large curated list of MCP servers. | `CC` `CX` `GC` `CU` | 96k | 2026-09-27 |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated Claude skills and resources. | `CC` | 77k | 2026-09-18 |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Curated Claude Code resources. | `CC` | 55k | 2026-10-07 |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Curated Claude Code resources. | `CC` | 55k | 2026-10-08 |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ agent skills indexed by source. | `CC` `CX` `GC` `CU` | 35k | 2026-10-07 |
 | [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) | Curated Codex skills. | `CX` | 17k | 2026-07-26 |
 | [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated Claude skills and resources. | `CC` | 15k | 2026-04-28 |

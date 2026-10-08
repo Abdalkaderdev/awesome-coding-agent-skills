@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:23:56.875Z",
+  "generatedAt": "2026-10-08T00:47:11.361Z",
   "agents": {
     "claude-code": "Claude Code",
     "codex": "Codex",
@@ -90,7 +90,7 @@
       ],
       "description": "Anthropic's reference skills, including docx, pptx, xlsx and pdf.",
       "url": "https://github.com/anthropics/skills",
-      "stars": 180057,
+      "stars": 180059,
       "pushedAt": "2026-10-05T13:46:45Z",
       "archived": false,
       "stale": false
@@ -103,7 +103,7 @@
       ],
       "description": "OpenAI's skills catalog for Codex.",
       "url": "https://github.com/openai/skills",
-      "stars": 27922,
+      "stars": 27923,
       "pushedAt": "2026-09-08T20:35:26Z",
       "archived": false,
       "stale": false
@@ -119,7 +119,7 @@
       ],
       "description": "Engineering skills: specs, testing, code review, performance.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 102803,
+      "stars": 102813,
       "pushedAt": "2026-10-03T18:21:11Z",
       "archived": false,
       "stale": false
@@ -135,7 +135,7 @@
       ],
       "description": "Vercel's skills for React, Next.js and Vercel projects.",
       "url": "https://github.com/vercel-labs/agent-skills",
-      "stars": 32056,
+      "stars": 32055,
       "pushedAt": "2026-08-28T13:36:31Z",
       "archived": false,
       "stale": false
@@ -179,7 +179,7 @@
       ],
       "description": "Skills for Obsidian vaults, Markdown, Bases and the Obsidian CLI.",
       "url": "https://github.com/kepano/obsidian-skills",
-      "stars": 49250,
+      "stars": 49252,
       "pushedAt": "2026-09-15T14:43:57Z",
       "archived": false,
       "stale": false
@@ -210,7 +210,7 @@
       ],
       "description": "Multi-phase security audit skill with verified findings.",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "stars": 26043,
+      "stars": 26049,
       "pushedAt": "2026-09-14T19:29:02Z",
       "archived": false,
       "stale": false
@@ -225,7 +225,7 @@
       ],
       "description": "Rewrites text to remove common signs of AI-generated writing.",
       "url": "https://github.com/blader/humanizer",
-      "stars": 54655,
+      "stars": 54658,
       "pushedAt": "2026-09-28T05:55:12Z",
       "archived": false,
       "stale": false
@@ -241,7 +241,7 @@
       ],
       "description": "Researches a topic across Reddit, X, YouTube and HN for the last 30 days.",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 63696,
+      "stars": 63698,
       "pushedAt": "2026-10-07T20:39:22Z",
       "archived": false,
       "stale": false
@@ -273,7 +273,7 @@
       ],
       "description": "Product management skills from discovery to strategy.",
       "url": "https://github.com/phuryn/pm-skills",
-      "stars": 26820,
+      "stars": 26821,
       "pushedAt": "2026-09-14T21:15:33Z",
       "archived": false,
       "stale": false
@@ -361,7 +361,7 @@
       ],
       "description": "UI/UX design skill with searchable styles, palettes, font pairings and stack guidelines.",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "stars": 133836,
+      "stars": 133842,
       "pushedAt": "2026-10-03T16:05:26Z",
       "archived": false,
       "stale": false
@@ -377,7 +377,7 @@
       ],
       "description": "Skill that cuts output tokens by having the agent answer in terse caveman speech.",
       "url": "https://github.com/JuliusBrussee/caveman",
-      "stars": 110411,
+      "stars": 110414,
       "pushedAt": "2026-10-07T16:32:55Z",
       "archived": false,
       "stale": false
@@ -393,7 +393,7 @@
       ],
       "description": "Frontend design skills that steer agents away from generic UI output.",
       "url": "https://github.com/Leonxlnx/taste-skill",
-      "stars": 93509,
+      "stars": 93516,
       "pushedAt": "2026-10-07T06:20:58Z",
       "archived": false,
       "stale": false
@@ -409,7 +409,7 @@
       ],
       "description": "Marketing skills for CRO, copywriting, SEO, analytics and growth.",
       "url": "https://github.com/coreyhaines31/marketingskills",
-      "stars": 53599,
+      "stars": 53601,
       "pushedAt": "2026-10-08T00:15:39Z",
       "archived": false,
       "stale": false
@@ -425,7 +425,7 @@
       ],
       "description": "Academic research pipeline skills: research, write, review, revise.",
       "url": "https://github.com/Imbad0202/academic-research-skills",
-      "stars": 50780,
+      "stars": 50781,
       "pushedAt": "2026-10-03T14:29:44Z",
       "archived": false,
       "stale": false
@@ -490,7 +490,7 @@
       "description": "The .NET team's skills for C# and .NET development.",
       "url": "https://github.com/dotnet/skills",
       "stars": 5573,
-      "pushedAt": "2026-10-08T00:10:24Z",
+      "pushedAt": "2026-10-08T00:44:15Z",
       "archived": false,
       "stale": false
     },
@@ -569,7 +569,7 @@
       ],
       "description": "Design skill aimed at avoiding generic AI-looking interfaces.",
       "url": "https://github.com/Nutlope/hallmark",
-      "stars": 29735,
+      "stars": 29737,
       "pushedAt": "2026-08-06T16:19:18Z",
       "archived": false,
       "stale": false
@@ -585,8 +585,8 @@
       ],
       "description": "Editorial diagram skill with 42 diagram types, output as HTML and SVG.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 44952,
-      "pushedAt": "2026-10-08T00:11:47Z",
+      "stars": 44968,
+      "pushedAt": "2026-10-08T00:30:24Z",
       "archived": false,
       "stale": false
     },
@@ -601,7 +601,7 @@
       ],
       "description": "SEO skill with sub-skills and subagents for technical SEO, schema and GEO.",
       "url": "https://github.com/AgriciDaniel/claude-seo",
-      "stars": 18486,
+      "stars": 18487,
       "pushedAt": "2026-10-04T23:41:12Z",
       "archived": false,
       "stale": false
@@ -662,7 +662,7 @@
       ],
       "description": "Skill that turns text, code and schemas into editable draw.io diagrams.",
       "url": "https://github.com/Agents365-ai/drawio-skill",
-      "stars": 9984,
+      "stars": 9985,
       "pushedAt": "2026-10-02T11:13:54Z",
       "archived": false,
       "stale": false
@@ -678,7 +678,7 @@
       ],
       "description": "Markdown skills for autonomous ML research with cross-model review loops.",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-      "stars": 17099,
+      "stars": 17101,
       "pushedAt": "2026-10-07T07:46:15Z",
       "archived": false,
       "stale": false
@@ -694,7 +694,7 @@
       ],
       "description": "Skill that pushes the agent toward minimal code and reuse over new abstractions.",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "stars": 157584,
+      "stars": 157594,
       "pushedAt": "2026-10-05T20:46:39Z",
       "archived": false,
       "stale": false
@@ -710,7 +710,7 @@
       ],
       "description": "Skill that makes the agent lead with the answer and keep output scannable.",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "stars": 55102,
+      "stars": 55117,
       "pushedAt": "2026-10-06T23:23:46Z",
       "archived": false,
       "stale": false
@@ -726,8 +726,8 @@
       ],
       "description": "Skill that turns ideas, plans or codebases into interactive diagrams.",
       "url": "https://github.com/tt-a1i/archify",
-      "stars": 79227,
-      "pushedAt": "2026-10-08T00:17:47Z",
+      "stars": 79234,
+      "pushedAt": "2026-10-08T00:41:26Z",
       "archived": false,
       "stale": false
     },
@@ -742,7 +742,7 @@
       ],
       "description": "Skill that builds a queryable knowledge graph from code, docs and schemas.",
       "url": "https://github.com/Graphify-Labs/graphify",
-      "stars": 124682,
+      "stars": 124691,
       "pushedAt": "2026-10-07T17:04:38Z",
       "archived": false,
       "stale": false
@@ -899,7 +899,7 @@
       ],
       "description": "Matt Pocock's small, composable engineering skills.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 279572,
+      "stars": 279594,
       "pushedAt": "2026-10-07T18:55:04Z",
       "archived": false,
       "stale": false
@@ -931,7 +931,7 @@
       ],
       "description": "Google Workspace CLI with 40+ agent skills for Drive, Gmail, Calendar and more.",
       "url": "https://github.com/googleworkspace/cli",
-      "stars": 31271,
+      "stars": 31272,
       "pushedAt": "2026-10-06T20:23:04Z",
       "archived": false,
       "stale": false
@@ -947,7 +947,7 @@
       ],
       "description": "Skills-based development method: brainstorm, plan, TDD, review.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 296390,
+      "stars": 296392,
       "pushedAt": "2026-10-06T23:57:53Z",
       "archived": false,
       "stale": false
@@ -1062,7 +1062,7 @@
       ],
       "description": "Skills, agents, hooks and rules for agent performance, memory and security.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 274934,
+      "stars": 274941,
       "pushedAt": "2026-10-05T04:55:16Z",
       "archived": false,
       "stale": false
@@ -1072,11 +1072,12 @@
       "category": "workflows",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "cursor"
       ],
       "description": "Garry Tan's setup: role-based skills for planning, review, QA and shipping.",
       "url": "https://github.com/garrytan/gstack",
-      "stars": 135700,
+      "stars": 135705,
       "pushedAt": "2026-10-07T23:34:06Z",
       "archived": false,
       "stale": false
@@ -1220,12 +1221,26 @@
       "category": "workflows",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "gemini-cli"
       ],
       "description": "Interview-gated, staged evaluation loop for replayable AI coding workflows.",
       "url": "https://github.com/Q00/ouroboros",
       "stars": 6193,
       "pushedAt": "2026-10-07T12:38:22Z",
+      "archived": false,
+      "stale": false
+    },
+    {
+      "repo": "gemini-cli-extensions/conductor",
+      "category": "workflows",
+      "agents": [
+        "claude-code"
+      ],
+      "description": "Spec-driven development plugin for Antigravity and Claude Code.",
+      "url": "https://github.com/gemini-cli-extensions/conductor",
+      "stars": 3757,
+      "pushedAt": "2026-09-01T22:58:24Z",
       "archived": false,
       "stale": false
     },
@@ -1237,7 +1252,7 @@
       ],
       "description": "Anthropic-managed directory of Claude Code plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 37506,
+      "stars": 37507,
       "pushedAt": "2026-10-07T20:36:56Z",
       "archived": false,
       "stale": false
@@ -1252,7 +1267,7 @@
       ],
       "description": "Plugin marketplace of agents, skills and commands for several harnesses.",
       "url": "https://github.com/wshobson/agents",
-      "stars": 40282,
+      "stars": 40284,
       "pushedAt": "2026-10-05T01:07:11Z",
       "archived": false,
       "stale": false
@@ -1293,7 +1308,7 @@
       "description": "Cursor plugin specification and official plugins.",
       "url": "https://github.com/cursor/plugins",
       "stars": 10253,
-      "pushedAt": "2026-10-07T04:54:21Z",
+      "pushedAt": "2026-10-08T00:45:15Z",
       "archived": false,
       "stale": false
     },
@@ -1331,7 +1346,7 @@
       ],
       "description": "Anthropic's role-based plugins for knowledge work, for Cowork and Claude Code.",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "stars": 27134,
+      "stars": 27139,
       "pushedAt": "2026-10-07T16:48:55Z",
       "archived": false,
       "stale": false
@@ -1422,7 +1437,7 @@
       ],
       "description": "OpenAI's Claude Code plugin to review code or delegate tasks to Codex.",
       "url": "https://github.com/openai/codex-plugin-cc",
-      "stars": 33938,
+      "stars": 33939,
       "pushedAt": "2026-07-08T00:17:31Z",
       "archived": false,
       "stale": false
@@ -1462,8 +1477,8 @@
       ],
       "description": "Large skills and plugin marketplace with the ccpi package manager.",
       "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
-      "stars": 2820,
-      "pushedAt": "2026-10-08T00:22:33Z",
+      "stars": 2821,
+      "pushedAt": "2026-10-08T00:37:43Z",
       "archived": false,
       "stale": false
     },
@@ -1520,20 +1535,6 @@
       "stale": false
     },
     {
-      "repo": "gemini-cli-extensions/conductor",
-      "category": "extensions",
-      "agents": [
-        "gemini-cli",
-        "claude-code"
-      ],
-      "description": "Spec-driven development: specs, plans and tracked implementation.",
-      "url": "https://github.com/gemini-cli-extensions/conductor",
-      "stars": 3757,
-      "pushedAt": "2026-09-01T22:58:24Z",
-      "archived": false,
-      "stale": false
-    },
-    {
       "repo": "gemini-cli-extensions/security",
       "category": "extensions",
       "agents": [
@@ -1567,7 +1568,7 @@
       ],
       "description": "Google Workspace access: Docs, Drive, Gmail, Calendar.",
       "url": "https://github.com/gemini-cli-extensions/workspace",
-      "stars": 645,
+      "stars": 646,
       "pushedAt": "2026-10-05T09:26:51Z",
       "archived": false,
       "stale": false
@@ -1984,7 +1985,7 @@
       ],
       "description": "Agent personas across engineering, design, marketing and other departments.",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "stars": 158261,
+      "stars": 158264,
       "pushedAt": "2026-10-07T16:45:46Z",
       "archived": false,
       "stale": false
@@ -2086,20 +2087,6 @@
       "stale": false
     },
     {
-      "repo": "steipete/agent-rules",
-      "category": "rules",
-      "agents": [
-        "claude-code",
-        "cursor"
-      ],
-      "description": "Rules and commands for working with Claude Code and Cursor.",
-      "url": "https://github.com/steipete/agent-rules",
-      "stars": 5681,
-      "pushedAt": "2026-05-03T17:06:19Z",
-      "archived": true,
-      "stale": false
-    },
-    {
       "repo": "multica-ai/andrej-karpathy-skills",
       "category": "rules",
       "agents": [
@@ -2108,7 +2095,7 @@
       ],
       "description": "Single CLAUDE.md derived from Karpathy's notes on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "stars": 217438,
+      "stars": 217440,
       "pushedAt": "2026-04-20T10:05:04Z",
       "archived": false,
       "stale": false
@@ -2209,7 +2196,7 @@
       ],
       "description": "Current library documentation and code examples.",
       "url": "https://github.com/upstash/context7",
-      "stars": 62781,
+      "stars": 62782,
       "pushedAt": "2026-10-07T13:59:55Z",
       "archived": false,
       "stale": false
@@ -2225,7 +2212,7 @@
       ],
       "description": "Browser automation through Playwright.",
       "url": "https://github.com/microsoft/playwright-mcp",
-      "stars": 37907,
+      "stars": 37908,
       "pushedAt": "2026-10-07T18:17:42Z",
       "archived": false,
       "stale": false
@@ -2257,7 +2244,7 @@
       ],
       "description": "GitHub's official MCP server.",
       "url": "https://github.com/github/github-mcp-server",
-      "stars": 33437,
+      "stars": 33438,
       "pushedAt": "2026-10-07T15:26:49Z",
       "archived": false,
       "stale": false
@@ -2305,7 +2292,7 @@
       ],
       "description": "Reference MCP server implementations.",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 91069,
+      "stars": 91068,
       "pushedAt": "2026-10-07T21:22:09Z",
       "archived": false,
       "stale": false
@@ -2417,7 +2404,7 @@
       ],
       "description": "Notion's MCP server.",
       "url": "https://github.com/makenotion/notion-mcp-server",
-      "stars": 4665,
+      "stars": 4664,
       "pushedAt": "2026-09-20T23:09:02Z",
       "archived": false,
       "stale": false
@@ -2498,7 +2485,7 @@
       "description": "Microsoft Learn MCP server for current Microsoft docs and code samples.",
       "url": "https://github.com/MicrosoftDocs/mcp",
       "stars": 1936,
-      "pushedAt": "2026-09-29T06:34:34Z",
+      "pushedAt": "2026-10-08T00:30:59Z",
       "archived": false,
       "stale": false
     },
@@ -2578,7 +2565,7 @@
       "description": "Firecrawl's MCP server for scraping, crawling and search.",
       "url": "https://github.com/firecrawl/firecrawl-mcp-server",
       "stars": 7565,
-      "pushedAt": "2026-10-08T00:13:03Z",
+      "pushedAt": "2026-10-08T00:39:46Z",
       "archived": false,
       "stale": false
     },
@@ -2609,7 +2596,7 @@
       ],
       "description": "Tavily's MCP server for search, extract, map and crawl.",
       "url": "https://github.com/tavily-ai/tavily-mcp",
-      "stars": 2422,
+      "stars": 2423,
       "pushedAt": "2026-10-05T17:01:00Z",
       "archived": false,
       "stale": false
@@ -2849,7 +2836,7 @@
       ],
       "description": "Apify's MCP server for web scraping Actors.",
       "url": "https://github.com/apify/apify-mcp-server",
-      "stars": 10052,
+      "stars": 10054,
       "pushedAt": "2026-10-07T12:58:11Z",
       "archived": false,
       "stale": false
@@ -2863,7 +2850,7 @@
       ],
       "description": "Captures session activity, compresses it and injects context into later sessions.",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 97709,
+      "stars": 97724,
       "pushedAt": "2026-10-07T00:57:45Z",
       "archived": false,
       "stale": false
@@ -2879,7 +2866,7 @@
       ],
       "description": "CLI proxy that filters and compresses command output before it reaches the agent.",
       "url": "https://github.com/rtk-ai/rtk",
-      "stars": 82639,
+      "stars": 82641,
       "pushedAt": "2026-10-07T16:11:56Z",
       "archived": false,
       "stale": false
@@ -2988,7 +2975,7 @@
       ],
       "description": "Persistent codebase map so agents read only the code that matters.",
       "url": "https://github.com/tirth8205/code-review-graph",
-      "stars": 31959,
+      "stars": 31960,
       "pushedAt": "2026-10-06T19:33:08Z",
       "archived": false,
       "stale": false
@@ -3036,7 +3023,7 @@
       ],
       "description": "Indexes a codebase into a persistent knowledge graph served over MCP.",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "stars": 46009,
+      "stars": 46011,
       "pushedAt": "2026-10-07T23:48:52Z",
       "archived": false,
       "stale": false
@@ -3046,7 +3033,8 @@
       "category": "statusline",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "gemini-cli"
       ],
       "description": "Token usage and cost reports from local session logs.",
       "url": "https://github.com/ccusage/ccusage",
@@ -3115,7 +3103,7 @@
       ],
       "description": "Terminal usage monitor with burn rate and limit predictions.",
       "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
-      "stars": 8734,
+      "stars": 8735,
       "pushedAt": "2026-07-05T04:52:21Z",
       "archived": false,
       "stale": false
@@ -3124,12 +3112,13 @@
       "repo": "steipete/CodexBar",
       "category": "statusline",
       "agents": [
+        "claude-code",
         "codex",
-        "claude-code"
+        "cursor"
       ],
       "description": "macOS menu bar app for Codex and Claude Code usage limits.",
       "url": "https://github.com/steipete/CodexBar",
-      "stars": 22288,
+      "stars": 22289,
       "pushedAt": "2026-10-08T00:09:32Z",
       "archived": false,
       "stale": false
@@ -3176,7 +3165,7 @@
       "description": "Local session search, analytics and token stats for coding agents.",
       "url": "https://github.com/kenn-io/agentsview",
       "stars": 6072,
-      "pushedAt": "2026-10-08T00:22:33Z",
+      "pushedAt": "2026-10-08T00:35:41Z",
       "archived": false,
       "stale": false
     },
@@ -3253,7 +3242,8 @@
       "agents": [
         "claude-code",
         "codex",
-        "gemini-cli"
+        "gemini-cli",
+        "cursor"
       ],
       "description": "macOS menu bar app for Claude, Codex and Gemini usage quotas.",
       "url": "https://github.com/tddworks/ClaudeBar",
@@ -3363,7 +3353,8 @@
       "category": "hooks",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "cursor"
       ],
       "description": "Hooks that capture agent runs and enforce policies.",
       "url": "https://github.com/FailproofAI/failproofai",
@@ -3454,7 +3445,7 @@
       "description": "Desktop notifications, sounds and webhooks for agent events.",
       "url": "https://github.com/777genius/agent-notifications",
       "stars": 815,
-      "pushedAt": "2026-10-08T00:17:46Z",
+      "pushedAt": "2026-10-08T00:37:50Z",
       "archived": false,
       "stale": false
     },
@@ -3463,12 +3454,13 @@
       "category": "orchestration",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "cursor"
       ],
       "description": "Desktop app that runs agents side by side, each in its own worktree.",
       "url": "https://github.com/stablyai/orca",
-      "stars": 87116,
-      "pushedAt": "2026-10-08T00:22:09Z",
+      "stars": 87128,
+      "pushedAt": "2026-10-08T00:45:56Z",
       "archived": false,
       "stale": false
     },
@@ -3477,7 +3469,8 @@
       "category": "orchestration",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "gemini-cli"
       ],
       "description": "Terminal app that manages several agents in tmux sessions and worktrees.",
       "url": "https://github.com/smtg-ai/claude-squad",
@@ -3491,12 +3484,14 @@
       "category": "orchestration",
       "agents": [
         "claude-code",
-        "codex"
+        "codex",
+        "gemini-cli",
+        "cursor"
       ],
       "description": "Ghostty-based macOS terminal with vertical tabs and agent notifications.",
       "url": "https://github.com/manaflow-ai/cmux",
-      "stars": 27833,
-      "pushedAt": "2026-10-08T00:21:57Z",
+      "stars": 27836,
+      "pushedAt": "2026-10-08T00:46:32Z",
       "archived": false,
       "stale": false
     },
@@ -3509,7 +3504,7 @@
       ],
       "description": "CLI for git worktree management in parallel agent workflows.",
       "url": "https://github.com/max-sixty/worktrunk",
-      "stars": 8966,
+      "stars": 8967,
       "pushedAt": "2026-10-07T18:36:21Z",
       "archived": false,
       "stale": false
@@ -3526,7 +3521,7 @@
       "description": "Desktop app for running many coding agents in parallel.",
       "url": "https://github.com/superset-sh/superset",
       "stars": 14969,
-      "pushedAt": "2026-10-08T00:18:24Z",
+      "pushedAt": "2026-10-08T00:42:43Z",
       "archived": false,
       "stale": false
     },
@@ -3539,7 +3534,7 @@
       ],
       "description": "Orchestrates coding agents from desktop and mobile.",
       "url": "https://github.com/getpaseo/paseo",
-      "stars": 20005,
+      "stars": 20007,
       "pushedAt": "2026-10-07T23:01:23Z",
       "archived": false,
       "stale": false
@@ -3567,7 +3562,7 @@
       ],
       "description": "Persistent terminal runtime for coding agents that survives disconnects.",
       "url": "https://github.com/herdrdev/herdr",
-      "stars": 42824,
+      "stars": 42826,
       "pushedAt": "2026-10-07T23:30:50Z",
       "archived": false,
       "stale": false
@@ -3576,11 +3571,12 @@
       "repo": "ruvnet/ruflo",
       "category": "orchestration",
       "agents": [
-        "claude-code"
+        "claude-code",
+        "codex"
       ],
-      "description": "Multi-agent swarm orchestration for Claude Code.",
+      "description": "Multi-agent swarm orchestration for Claude Code and Codex.",
       "url": "https://github.com/ruvnet/ruflo",
-      "stars": 74071,
+      "stars": 74072,
       "pushedAt": "2026-10-07T22:37:30Z",
       "archived": false,
       "stale": false
@@ -3593,7 +3589,7 @@
       ],
       "description": "Team-based multi-agent orchestration for Claude Code.",
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-      "stars": 39658,
+      "stars": 39659,
       "pushedAt": "2026-10-07T20:16:42Z",
       "archived": false,
       "stale": false
@@ -3606,8 +3602,8 @@
       ],
       "description": "Workflow engine that runs YAML-defined development processes with agents.",
       "url": "https://github.com/coleam00/Archon",
-      "stars": 23639,
-      "pushedAt": "2026-10-08T00:21:19Z",
+      "stars": 23640,
+      "pushedAt": "2026-10-08T00:46:03Z",
       "archived": false,
       "stale": false
     },
@@ -3647,7 +3643,7 @@
       ],
       "description": "Web and mobile UI for Claude Code, Codex and Cursor CLI sessions.",
       "url": "https://github.com/siteboon/claudecodeui",
-      "stars": 13968,
+      "stars": 13969,
       "pushedAt": "2026-10-07T18:25:40Z",
       "archived": false,
       "stale": false
@@ -3677,7 +3673,7 @@
       ],
       "description": "Bridges local coding agents to Slack, Telegram, Feishu and other chat apps.",
       "url": "https://github.com/chenhg5/cc-connect",
-      "stars": 15822,
+      "stars": 15823,
       "pushedAt": "2026-09-29T03:13:03Z",
       "archived": false,
       "stale": false
@@ -3708,7 +3704,7 @@
       ],
       "description": "Desktop cowork app for Claude Code, Codex, Gemini CLI and other CLI agents.",
       "url": "https://github.com/iOfficeAI/AionUi",
-      "stars": 33362,
+      "stars": 33363,
       "pushedAt": "2026-09-09T07:57:01Z",
       "archived": false,
       "stale": false
@@ -3724,7 +3720,7 @@
       ],
       "description": "`npx skills` CLI to install and update skills across agents.",
       "url": "https://github.com/vercel-labs/skills",
-      "stars": 33359,
+      "stars": 33360,
       "pushedAt": "2026-10-07T22:40:51Z",
       "archived": false,
       "stale": false
@@ -3826,7 +3822,7 @@
       ],
       "description": "CLI to install agents, commands, hooks and MCP configs.",
       "url": "https://github.com/davila7/claude-code-templates",
-      "stars": 32459,
+      "stars": 32460,
       "pushedAt": "2026-10-07T14:35:02Z",
       "archived": false,
       "stale": false
@@ -3855,7 +3851,7 @@
       ],
       "description": "Desktop app to switch providers, MCP servers and skills for several coding CLIs.",
       "url": "https://github.com/farion1231/cc-switch",
-      "stars": 140781,
+      "stars": 140793,
       "pushedAt": "2026-10-07T16:10:45Z",
       "archived": false,
       "stale": false
@@ -3887,7 +3883,7 @@
       "description": "Configures memory, skills and workflows across your coding agents.",
       "url": "https://github.com/Gentleman-Programming/gentle-ai",
       "stars": 7591,
-      "pushedAt": "2026-10-08T00:18:07Z",
+      "pushedAt": "2026-10-08T00:33:44Z",
       "archived": false,
       "stale": false
     },
@@ -3963,7 +3959,7 @@
       ],
       "description": "Security scanner for agent skills: injection, exfiltration and malicious patterns.",
       "url": "https://github.com/NVIDIA/SkillSpector",
-      "stars": 19645,
+      "stars": 19648,
       "pushedAt": "2026-10-07T17:12:25Z",
       "archived": false,
       "stale": false
@@ -4042,8 +4038,8 @@
       ],
       "description": "OpenAI's Codex Security CLI and SDK for finding and fixing vulnerabilities.",
       "url": "https://github.com/openai/codex-security",
-      "stars": 11009,
-      "pushedAt": "2026-10-08T00:12:52Z",
+      "stars": 11010,
+      "pushedAt": "2026-10-08T00:39:10Z",
       "archived": false,
       "stale": false
     },
@@ -4070,7 +4066,7 @@
       "description": "GitHub's agentic workflows: Markdown-defined agent runs in GitHub Actions.",
       "url": "https://github.com/github/gh-aw",
       "stars": 5356,
-      "pushedAt": "2026-10-08T00:20:06Z",
+      "pushedAt": "2026-10-08T00:45:22Z",
       "archived": false,
       "stale": false
     },
@@ -4121,7 +4117,7 @@
       ],
       "description": "Claude Code practices and examples, from setup to agentic engineering.",
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "stars": 67240,
+      "stars": 67241,
       "pushedAt": "2026-10-07T06:46:17Z",
       "archived": false,
       "stale": false
@@ -4134,7 +4130,7 @@
       ],
       "description": "Visual, example-driven Claude Code guide with copy-paste templates.",
       "url": "https://github.com/luongnv89/claude-howto",
-      "stars": 41772,
+      "stars": 41771,
       "pushedAt": "2026-09-30T12:33:25Z",
       "archived": false,
       "stale": false
@@ -4252,8 +4248,8 @@
       ],
       "description": "Curated Claude Code resources.",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "stars": 55211,
-      "pushedAt": "2026-10-07T21:09:34Z",
+      "stars": 55212,
+      "pushedAt": "2026-10-08T00:28:50Z",
       "archived": false,
       "stale": false
     },
@@ -4281,7 +4277,7 @@
       ],
       "description": "Curated Claude skills and resources.",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "stars": 76671,
+      "stars": 76673,
       "pushedAt": "2026-09-18T07:16:11Z",
       "archived": false,
       "stale": false
