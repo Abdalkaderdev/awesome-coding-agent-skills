@@ -8,14 +8,17 @@
   "categories": [
     { "id": "skills", "title": "Skill collections", "description": "Repositories of SKILL.md skills." },
     { "id": "workflows", "title": "Workflows and frameworks", "description": "Opinionated development processes packaged as skills, commands or plugins." },
-    { "id": "plugins", "title": "Plugin marketplaces", "description": "Installable plugin catalogs." },
+    { "id": "plugins", "title": "Plugins and marketplaces", "description": "Installable plugins and plugin catalogs." },
     { "id": "extensions", "title": "Gemini CLI extensions", "description": "Extensions installed with `gemini extensions install`." },
     { "id": "subagents", "title": "Subagents", "description": "Collections of specialized agent definitions." },
     { "id": "rules", "title": "Rules and instructions", "description": "Cursor rules, AGENTS.md and similar instruction files." },
     { "id": "mcp", "title": "MCP servers", "description": "Model Context Protocol servers widely used with coding agents." },
+    { "id": "context", "title": "Memory and context", "description": "Persistent memory, code indexing and token reduction." },
     { "id": "statusline", "title": "Statusline and usage", "description": "Statuslines, usage trackers and cost monitors." },
     { "id": "hooks", "title": "Hooks", "description": "Hook collections, SDKs and observability built on hooks." },
-    { "id": "tooling", "title": "Skill managers and tooling", "description": "Install, sync, convert and route." },
+    { "id": "orchestration", "title": "Sessions and orchestration", "description": "Parallel agent runners, worktree managers and session clients." },
+    { "id": "tooling", "title": "Skill managers and tooling", "description": "Install, sync, convert, route, configure and run in CI." },
+    { "id": "learning", "title": "Guides and examples", "description": "Tutorials, guides and example setups." },
     { "id": "lists", "title": "Other lists", "description": "Related curated lists." }
   ],
   "entries": [
