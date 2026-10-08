@@ -183,7 +183,7 @@ Extensions installed with `gemini extensions install`.
 | [gemini-cli-extensions/postgres](https://github.com/gemini-cli-extensions/postgres) | Google's extension for PostgreSQL databases. | `GC` `CC` `CX` | 96 | 2026-08-31 |
 | [gemini-cli-extensions/sre](https://github.com/gemini-cli-extensions/sre) | Google's SRE investigation tools for Google Cloud. | `GC` `CC` `CX` | 84 | 2026-09-02 |
 | [gemini-cli-extensions/looker](https://github.com/gemini-cli-extensions/looker) | Google's skills for Looker. | `GC` `CC` `CX` | 57 | 2026-09-23 |
-| [gemini-cli-extensions/cicd](https://github.com/gemini-cli-extensions/cicd) | Google's extension for CI/CD on Google Cloud. | `GC` | 51 | 2026-10-07 |
+| [gemini-cli-extensions/cicd](https://github.com/gemini-cli-extensions/cicd) | Google's extension for CI/CD on Google Cloud. | `GC` | 51 | 2026-10-08 |
 | [gemini-cli-extensions/bigquery-data-analytics](https://github.com/gemini-cli-extensions/bigquery-data-analytics) | Google's data analytics skills for BigQuery. | `GC` `CC` `CX` | 50 | 2026-09-28 |
 | [gemini-cli-extensions/cloud-sql-postgresql](https://github.com/gemini-cli-extensions/cloud-sql-postgresql) | Google's skills for Cloud SQL for PostgreSQL. | `GC` `CC` `CX` | 42 | 2026-09-23 |
 | [gemini-cli-extensions/mysql](https://github.com/gemini-cli-extensions/mysql) | Google's extension for MySQL databases. | `GC` `CC` `CX` | 42 | 2026-08-27 |
@@ -292,7 +292,7 @@ Persistent memory, code indexing and token reduction.
 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | Persistent codebase map so agents read only the code that matters. | `CC` `CX` `GC` `CU` | 32k | 2026-10-06 |
 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Persistent memory for coding agents. | `CC` `CX` `GC` `CU` | 29k | 2026-10-06 |
 | [yamadashy/repomix](https://github.com/yamadashy/repomix) | Packs a repository into one AI-friendly file; also runs as an MCP server. | `CC` `CX` `GC` `CU` | 29k | 2026-10-03 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | Dependency-aware issue graph that gives agents persistent task memory. | `CC` `CX` | 28k | 2026-10-07 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | Dependency-aware issue graph that gives agents persistent task memory. | `CC` `CX` | 28k | 2026-10-08 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Sandboxes tool output and persists session memory to save context. | `CC` `CX` `GC` `CU` | 26k | 2026-10-07 |
 | [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram) | Agent-agnostic memory in SQLite with MCP server, HTTP API, CLI and TUI. | `CC` `CX` `GC` `CU` | 7.1k | 2026-10-07 |
 
@@ -304,7 +304,7 @@ Statuslines, usage trackers and cost monitors.
 | --- | --- | --- | ---: | --- |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | Plugin showing context usage, active tools and running agents. | `CC` | 28k | 2026-10-03 |
 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | macOS menu bar app for Codex and Claude Code usage limits. | `CC` `CX` `CU` | 22k | 2026-10-08 |
-| [ccusage/ccusage](https://github.com/ccusage/ccusage) | Token usage and cost reports from local session logs. | `CC` `CX` `GC` | 19k | 2026-10-07 |
+| [ccusage/ccusage](https://github.com/ccusage/ccusage) | Token usage and cost reports from local session logs. | `CC` `CX` `GC` | 19k | 2026-10-08 |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | Configurable statusline with powerline themes. | `CC` | 13k | 2026-10-06 |
 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | Local token and cost tracking across many coding agents. | `CC` `CX` `GC` `CU` | 11k | 2026-10-07 |
 | [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | Terminal usage monitor with burn rate and limit predictions. | `CC` | 8.7k | 2026-07-05 |
@@ -357,7 +357,6 @@ Parallel agent runners, worktree managers and session clients.
 | [coleam00/Archon](https://github.com/coleam00/Archon) | Workflow engine that runs YAML-defined development processes with agents. | `CC` | 24k | 2026-10-08 |
 | [winfunc/opcode](https://github.com/winfunc/opcode) | Desktop GUI for Claude Code sessions and custom agents. | `CC` | 22k | 2026-09-18 |
 | [getpaseo/paseo](https://github.com/getpaseo/paseo) | Orchestrates coding agents from desktop and mobile. | `CC` `CX` | 20k | 2026-10-07 |
-| [chenhg5/cc-connect](https://github.com/chenhg5/cc-connect) | Bridges local coding agents to Slack, Telegram, Feishu and other chat apps. | `CC` `CX` `GC` `CU` | 16k | 2026-09-29 |
 | [superset-sh/superset](https://github.com/superset-sh/superset) | Desktop app for running many coding agents in parallel. | `CC` `CX` `GC` `CU` | 15k | 2026-10-08 |
 | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | Desktop workspace for Claude Code with worktrees, diffs and multi-agent runs. | `CC` | 15k | 2026-10-05 |
 | [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | Web and mobile UI for Claude Code, Codex and Cursor CLI sessions. | `CC` `CX` `CU` | 14k | 2026-10-07 |
@@ -371,7 +370,6 @@ Install, sync, convert, route, configure and run in CI.
 
 | Project | Description | Agents | Stars | Updated |
 | --- | --- | --- | ---: | --- |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Desktop app to switch providers, MCP servers and skills for several coding CLIs. | `CC` `CX` `GC` | 141k | 2026-10-07 |
 | [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Routes agent requests to other model providers. | `CC` `CX` | 38k | 2026-09-26 |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | `npx skills` CLI to install and update skills across agents. | `CC` `CX` `GC` `CU` | 33k | 2026-10-07 |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI to install agents, commands, hooks and MCP configs. | `CC` | 32k | 2026-10-07 |
@@ -383,11 +381,9 @@ Install, sync, convert, route, configure and run in CI.
 | [anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) | Python SDK for building agents on the Claude Code harness. | `CC` | 8.2k | 2026-10-07 |
 | [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | Configures memory, skills and workflows across your coding agents. | `CC` `CX` `GC` `CU` | 7.6k | 2026-10-08 |
 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | Anthropic's GitHub Action for security review of code changes. | `CC` | 6.3k | 2026-02-11 |
-| [UfoMiao/zcf](https://github.com/UfoMiao/zcf) | Zero-config setup of Claude Code and Codex with workflows and MCP services. | `CC` `CX` | 6.1k | 2026-08-31 |
 | [xingkongliang/skills-manager](https://github.com/xingkongliang/skills-manager) | Desktop app to manage and sync skills across agents. | `CC` `CX` `GC` `CU` | 5.7k | 2026-10-04 |
 | [anthropics/sandbox-runtime](https://github.com/anthropics/sandbox-runtime) | Anthropic's OS-level filesystem and network sandbox for agent processes. | `CC` | 5.5k | 2026-10-07 |
 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub's agentic workflows: Markdown-defined agent runs in GitHub Actions. | `CC` `CX` | 5.4k | 2026-10-08 |
-| [SaladDay/cc-switch-cli](https://github.com/SaladDay/cc-switch-cli) | CLI for switching Claude Code, Codex and Gemini CLI providers and configs. | `CC` `CX` `GC` | 5.2k | 2026-10-07 |
 | [intellectronica/ruler](https://github.com/intellectronica/ruler) | Applies one set of rules to all coding agents. | `CC` `CX` `GC` `CU` | 2.9k | 2026-09-30 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customizes Claude Code's system prompts, toolsets, themes and spinners. | `CC` | 2.5k | 2026-10-06 |
 | [google-github-actions/run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) | Google's GitHub Action that runs Gemini CLI in workflows. | `GC` | 2.1k | 2026-08-21 |
