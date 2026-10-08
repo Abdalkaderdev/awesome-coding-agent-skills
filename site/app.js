@@ -100,7 +100,8 @@ function init(data) {
   });
 
   document.addEventListener('keydown', e => {
-    const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName) || document.activeElement?.isContentEditable;
+    const el = document.activeElement;
+    const typing = el?.isContentEditable || /^(TEXTAREA|SELECT)$/.test(el?.tagName) || (el?.tagName === 'INPUT' && !/^(checkbox|radio|button|submit|reset)$/.test(el.type));
     if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
       e.preventDefault();
       $('q').focus();
@@ -146,8 +147,8 @@ function init(data) {
           <a class="repo" href="${esc(e.url)}" translate="no"><span class="owner">${mark(owner, q)}/</span><span class="name">${mark(name, q)}</span></a>${flag}${state.category ? '' : `<span class="row-cat">${esc(cats[e.category])}</span>`}
           <p class="desc">${mark(e.description, q)}</p>
         </div>
-        <div class="row-agents" aria-label="Works with">${agents}</div>
-        <span class="row-stars num" aria-label="${e.stars.toLocaleString('en')} stars"><span aria-hidden="true">${stars(e.stars)}</span></span>
+        <div class="row-agents" role="group" aria-label="Works with">${agents}</div>
+        <span class="row-stars num"><span aria-hidden="true">${stars(e.stars)}</span><span class="sr-only">${e.stars.toLocaleString('en')} stars</span></span>
         <time class="row-date" datetime="${esc(e.pushedAt || '')}" title="${t.title}">${t.text}</time>
       </li>`;
     }).join('');
