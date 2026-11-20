@@ -101,6 +101,10 @@
     { "repo": "gemini-cli-extensions/conductor", "category": "workflows", "agents": ["claude-code"], "description": "Spec-driven development plugin for Antigravity and Claude Code." },
 
     { "repo": "anthropics/claude-plugins-official", "category": "plugins", "agents": ["claude-code"], "description": "Anthropic-managed directory of Claude Code plugins." },
+    { "repo": "klingai-tech/claude-plugin", "category": "plugins", "agents": ["claude-code"], "description": "Global Kling image and video plugin for Claude Code via remote OAuth MCP." },
+    { "repo": "klingai-tech/claude-plugin-cn", "category": "plugins", "agents": ["claude-code"], "description": "China-region Kling image and video plugin for Claude Code via remote OAuth MCP." },
+    { "repo": "klingai-tech/cursor-plugin", "category": "plugins", "agents": ["cursor"], "description": "Kling image and video plugin for Cursor with remote OAuth MCP." },
+    { "repo": "klingai-dev/chatgpt-plugin", "category": "plugins", "agents": ["codex"], "description": "Kling image and video plugin for ChatGPT and Codex via remote OAuth MCP." },
     { "repo": "wshobson/agents", "category": "plugins", "agents": ["claude-code", "codex", "cursor"], "description": "Plugin marketplace of agents, skills and commands for several harnesses." },
     { "repo": "obra/superpowers-marketplace", "category": "plugins", "agents": ["claude-code"], "description": "Marketplace for superpowers and related plugins." },
     { "repo": "trailofbits/skills-curated", "category": "plugins", "agents": ["claude-code", "codex"], "description": "Community-vetted plugin marketplace curated by Trail of Bits." },
